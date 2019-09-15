@@ -6,19 +6,71 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>CodeRabbit个人博客</title>
+  <title>乐优商城day08-规格参数 | CodeRabbit个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="个人技术博客">
+  <meta name="description" content="0.学习目标 了解商品规格数据结构设计思路  实现商品规格查询  了解SPU和SKU数据结构设计思路  实现商品查询  了解商品新增的页面实现  独立编写商品新增后台功能">
 <meta name="keywords" content="前端博客，后端博客，java,vue.js,jquery,html5,springboot,springcloud">
-<meta property="og:type" content="website">
-<meta property="og:title" content="CodeRabbit个人博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="乐优商城day08-规格参数">
+<meta property="og:url" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/index.html">
 <meta property="og:site_name" content="CodeRabbit个人博客">
-<meta property="og:description" content="个人技术博客">
+<meta property="og:description" content="0.学习目标 了解商品规格数据结构设计思路  实现商品规格查询  了解SPU和SKU数据结构设计思路  实现商品查询  了解商品新增的页面实现  独立编写商品新增后台功能">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526085541996.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526086539789.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526087063700.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526087142454.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526088981953.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526090072535.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526090228171.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526091216124.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526092179381.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1529549099049.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1529549521623.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528423299102.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1529550402376.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1529550694218.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1529550775415.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528427514717.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528428028513.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528428221957.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528428308113.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528428617046.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528428699027.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528429029149.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528433648595.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528429342796.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528433697492.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528433733340.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528433821121.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528429949504.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528429988410.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528430052736.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528430100166.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528430147829.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528430319461.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528430407298.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1543383516456.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528442972016.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1529554390912.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1529554916252.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526267828817.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526266901335.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526267180997.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528445149890.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528479229165.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526268595873.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528447301687.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528447431959.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528447591939.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1543414148030.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1543413983147.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1528450054541.png">
+<meta property="og:updated_time" content="2019-09-15T01:43:03.588Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CodeRabbit个人博客">
-<meta name="twitter:description" content="个人技术博客">
+<meta name="twitter:title" content="乐优商城day08-规格参数">
+<meta name="twitter:description" content="0.学习目标 了解商品规格数据结构设计思路  实现商品规格查询  了解SPU和SKU数据结构设计思路  实现商品查询  了解商品新增的页面实现  独立编写商品新增后台功能">
+<meta name="twitter:image" content="http://yoursite.com/2019/09/15/乐优商城day08-规格参数/1526085541996.png">
   
     <link rel="alternative" href="/atom.xml" title="CodeRabbit个人博客" type="application/atom+xml">
   
@@ -154,16 +206,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-乐优商城day08-规格参数" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-乐优商城day08-规格参数" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/15/乐优商城day08-规格参数/">乐优商城day08-规格参数</a>
+    <h1 class="article-title" itemprop="name">
+      乐优商城day08-规格参数
     </h1>
   
 
@@ -187,585 +237,451 @@
 </li>
 <li><p>了解商品新增的页面实现</p>
 </li>
-<li><p>独立编写商品新增后台功能</p></li></ul>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/15/乐优商城day08-规格参数/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
+<li><p>独立编写商品新增后台功能</p>
+<a id="more"></a>
 
 
 
-
-  
-    <article id="post-乐优商城day07-02fastDFS的安装" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/14/乐优商城day07-02fastDFS的安装/">乐优商城day07-02fastDFS的安装</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/14/乐优商城day07-02fastDFS的安装/" class="archive-article-date">
-  	<time datetime="2019-09-14T01:53:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="1-Linux下使用FastDFS"><a href="#1-Linux下使用FastDFS" class="headerlink" title="1.Linux下使用FastDFS"></a>1.Linux下使用FastDFS</h1><p><strong>本教程所有操作均在CentOS 6.x环境下进行。</strong></p>
-<p>将课前资料中的所需文件，上传到/usr/local/leyou目录下：</p>
-<p><img src="/2019/09/14/乐优商城day07-02fastDFS的安装/1528196363110.png" alt="1528196363110"></p>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/14/乐优商城day07-02fastDFS的安装/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-乐优商城day07-01品牌新增" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/14/乐优商城day07-01品牌新增/">乐优商城day07-01品牌新增</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/14/乐优商城day07-01品牌新增/" class="archive-article-date">
-  	<time datetime="2019-09-14T01:50:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="0-学习目标"><a href="#0-学习目标" class="headerlink" title="0.学习目标"></a>0.学习目标</h1><ul>
-<li><p>独立实现品牌新增</p>
-</li>
-<li><p>实现图片上传</p>
-</li>
-<li><p>了解FastDFS的安装</p>
-</li>
-<li><p>使用FastDFS客户端实现上传</p>
 </li>
 </ul>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/14/乐优商城day07-01品牌新增/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-乐优商城day06-商品分类" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/13/乐优商城day06-商品分类/">乐优商城day06-商品分类</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/13/乐优商城day06-商品分类/" class="archive-article-date">
-  	<time datetime="2019-09-13T12:44:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-13</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="0-学习目标"><a href="#0-学习目标" class="headerlink" title="0.学习目标"></a>0.学习目标</h1><ul>
-<li><p>使用资料搭建后台系统</p>
-</li>
-<li><p>会使用nginx进行反向代理</p>
-</li>
-<li><p>实现商品分类查询功能</p>
-</li>
-<li><p>掌握cors解决跨域</p>
-</li>
-<li><p>实现品牌查询功能</p></li></ul>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/13/乐优商城day06-商品分类/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-乐优商城day05-Vue入门" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/13/乐优商城day05-Vue入门/">乐优商城day05-Vue入门</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/13/乐优商城day05-Vue入门/" class="archive-article-date">
-  	<time datetime="2019-09-13T01:51:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-13</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="学习目标"><a href="#学习目标" class="headerlink" title="学习目标"></a>学习目标</h1><ul>
-<li><p>会创建Vue实例，知道Vue的常见属性</p>
-</li>
-<li><p>会使用Vue的生命周期的钩子函数</p>
-</li>
-<li><p>会使用vue常见指令</p>
-</li>
-<li><p>会使用vue计算属性和watch监控</p>
-</li>
-<li><p>会编写Vue组件</p>
-</li>
-<li><p>掌握组件间通信</p>
-</li>
-<li><p>了解vue-router使用</p></li></ul>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/13/乐优商城day05-Vue入门/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-乐优商城day04-后台环境搭建及ES6" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/11/乐优商城day04-后台环境搭建及ES6/">乐优商城day04-后台环境搭建及ES6</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/11/乐优商城day04-后台环境搭建及ES6/" class="archive-article-date">
-  	<time datetime="2019-09-11T11:05:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-11</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="0-学习目标"><a href="#0-学习目标" class="headerlink" title="0.学习目标"></a>0.学习目标</h1><ul>
-<li>了解电商行业</li>
-<li>了解乐优商城项目结构</li>
-<li>能独立搭建项目基本框架</li>
-<li>能参考使用ES6的新语法</li>
-</ul>
-<h1 id="1-了解电商行业"><a href="#1-了解电商行业" class="headerlink" title="1.了解电商行业"></a>1.了解电商行业</h1><p>学习电商项目，自然要先了解这个行业，所以我们首先来聊聊电商行业</p>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/11/乐优商城day04-后台环境搭建及ES6/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-乐优商城day03-SpringCloud" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/10/乐优商城day03-SpringCloud/">乐优商城day03-SpringCloud</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/10/乐优商城day03-SpringCloud/" class="archive-article-date">
-  	<time datetime="2019-09-10T02:10:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-10</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="0-学习目标"><a href="#0-学习目标" class="headerlink" title="0.学习目标"></a>0.学习目标</h1><ul>
-<li>会配置Hystix熔断</li>
-<li>会使用Feign进行远程调用</li>
-<li>能独立搭建Zuul网关</li>
-<li>能编写Zuul的过滤器</li>
-</ul>
-<h1 id="1-Hystrix"><a href="#1-Hystrix" class="headerlink" title="1.Hystrix"></a>1.Hystrix</h1><h2 id="1-1-简介"><a href="#1-1-简介" class="headerlink" title="1.1.简介"></a>1.1.简介</h2><p>Hystrix,英文意思是豪猪，全身是刺，看起来就不好惹，是一种保护机制。</p>
-<p>Hystrix也是Netflix公司的一款组件。</p>
-<p>主页：<a href="https://github.com/Netflix/Hystrix/" target="_blank" rel="noopener">https://github.com/Netflix/Hystrix/</a></p>
-<p><img src="/2019/09/10/乐优商城day03-SpringCloud/1525658740266.png" alt="1525658740266"></p>
-<p>那么Hystix的作用是什么呢？具体要保护什么呢？</p>
-<p>Hystix是Netflix开源的一个延迟和容错库，用于隔离访问远程服务、第三方库，防止出现级联失败。</p>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/10/乐优商城day03-SpringCloud/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-乐优商城day02-SpringCloud" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/09/乐优商城day02-SpringCloud/">乐优商城day02-SpringCloud</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/09/乐优商城day02-SpringCloud/" class="archive-article-date">
-  	<time datetime="2019-09-09T06:08:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-09</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="0-学习目标"><a href="#0-学习目标" class="headerlink" title="0.学习目标"></a>0.学习目标</h1><ul>
-<li>了解系统架构的演变</li>
-<li>了解RPC与Http的区别</li>
-<li>知道什么是SpringCloud</li>
-<li>独立搭建Eureka注册中心</li>
-<li>独立配置Robbin负载均衡</li>
-</ul>
-<h1 id="1-系统架构演变"><a href="#1-系统架构演变" class="headerlink" title="1.系统架构演变"></a>1.系统架构演变</h1><p>随着互联网的发展，网站应用的规模不断扩大。需求的激增，带来的是技术上的压力。系统架构也因此不断的演进、升级、迭代。从单一应用，到垂直拆分，到分布式服务，到SOA，以及现在火热的微服务架构，还有在Google带领下来势汹涌的Service Mesh。我们到底是该乘坐微服务的船只驶向远方，还是偏安一隅得过且过？</p>
-<p>其实生活不止眼前的苟且，还有诗和远方。所以我们今天就回顾历史，看一看系统架构演变的历程；把握现在，学习现在最火的技术架构；展望未来，争取成为一名优秀的Java工程师。</p>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/09/乐优商城day02-SpringCloud/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-乐优商城day01-SpringBoot" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/08/乐优商城day01-SpringBoot/">乐优商城day01-SpringBoot</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/08/乐优商城day01-SpringBoot/" class="archive-article-date">
-  	<time datetime="2019-09-08T07:33:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-08</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="0-学习目标"><a href="#0-学习目标" class="headerlink" title="0.学习目标"></a>0.学习目标</h1><ul>
-<li>了解SpringBoot的作用</li>
-<li>掌握java配置的方式</li>
-<li>了解SpringBoot自动配置原理</li>
-<li>掌握SpringBoot的基本使用</li>
-<li>了解Thymeleaf的基本使用</li>
-</ul>
-<h1 id="1-了解SpringBoot"><a href="#1-了解SpringBoot" class="headerlink" title="1. 了解SpringBoot"></a>1. 了解SpringBoot</h1><p>在这一部分，我们主要了解以下3个问题：</p>
+<h1 id="1-商品规格数据结构"><a href="#1-商品规格数据结构" class="headerlink" title="1.商品规格数据结构"></a>1.商品规格数据结构</h1><p>乐优商城是一个全品类的电商网站，因此商品的种类繁多，每一件商品，其属性又有差别。为了更准确描述商品及细分差别，抽象出两个概念：SPU和SKU，了解一下：</p>
+<h2 id="1-1-SPU和SKU"><a href="#1-1-SPU和SKU" class="headerlink" title="1.1.SPU和SKU"></a>1.1.SPU和SKU</h2><p>SPU：Standard Product Unit （标准产品单位） ，一组具有共同属性的商品集</p>
+<p>SKU：Stock Keeping Unit（库存量单位），SPU商品集因具体特性不同而细分的每个商品</p>
+<p>以图为例来看：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1526085541996.png" alt="1526085541996"></p>
 <ul>
-<li><p>什么是SpringBoot</p>
+<li>本页的 华为Mate10 就是一个商品集（SPU）</li>
+<li>因为颜色、内存等不同，而细分出不同的Mate10，如亮黑色128G版。（SKU）</li>
+</ul>
+<p>可以看出：</p>
+<ul>
+<li>SPU是一个抽象的商品集概念，为了方便后台的管理。</li>
+<li>SKU才是具体要销售的商品，每一个SKU的价格、库存可能会不一样，用户购买的是SKU而不是SPU</li>
+</ul>
+<h2 id="1-2-数据库设计分析"><a href="#1-2-数据库设计分析" class="headerlink" title="1.2.数据库设计分析"></a>1.2.数据库设计分析</h2><h3 id="1-2-1-思考并发现问题"><a href="#1-2-1-思考并发现问题" class="headerlink" title="1.2.1.思考并发现问题"></a>1.2.1.思考并发现问题</h3><p>弄清楚了SPU和SKU的概念区分，接下来我们一起思考一下该如何设计数据库表。</p>
+<p>首先来看SPU，大家一起思考下SPU应该有哪些字段来描述？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">id:主键</span><br><span class="line">title：标题</span><br><span class="line">description：描述</span><br><span class="line">specification：规格</span><br><span class="line">packaging_list：包装</span><br><span class="line">after_service：售后服务</span><br><span class="line">comment：评价</span><br><span class="line">category_id：商品分类</span><br><span class="line">brand_id：品牌</span><br></pre></td></tr></table></figure>
+
+<p>似乎并不复杂，但是大家仔细思考一下，商品的规格字段你如何填写？</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526086539789.png" alt="1526086539789"></p>
+<p>不同商品的规格不一定相同，数据库中要如何保存？</p>
+<p>再看下SKU，大家觉得应该有什么字段？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">id：主键</span><br><span class="line">spu_id：关联的spu</span><br><span class="line">price：价格</span><br><span class="line">images：图片</span><br><span class="line">stock：库存</span><br><span class="line">颜色？</span><br><span class="line">内存？</span><br><span class="line">硬盘？</span><br></pre></td></tr></table></figure>
+
+<p>碰到难题了，不同的商品分类，可能属性是不一样的，比如手机有内存，衣服有尺码，我们是全品类的电商网站，这些不同的商品的不同属性，如何设计到一张表中？</p>
+<p>其实颜色、内存、硬盘属性都是规格参数中的字段。所以，要解决这个问题，首先要能清楚规格参数。</p>
+<h3 id="1-2-2-分析规格参数"><a href="#1-2-2-分析规格参数" class="headerlink" title="1.2.2.分析规格参数"></a>1.2.2.分析规格参数</h3><p>仔细查看每一种商品的规格你会发现：</p>
+<p>虽然商品规格千变万化，但是同一类商品（如手机）的规格是统一的，有图为证：</p>
+<blockquote>
+<p>华为的规格：</p>
+</blockquote>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526087063700.png" alt="1526087063700"></p>
+<blockquote>
+<p>三星的规格：</p>
+</blockquote>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526087142454.png" alt="1526087142454"></p>
+<h3 id="1-2-3-SKU的特有属性"><a href="#1-2-3-SKU的特有属性" class="headerlink" title="1.2.3.SKU的特有属性"></a>1.2.3.SKU的特有属性</h3><p>SPU中会有一些特殊属性，用来区分不同的SKU，我们称为SKU特有属性。如华为META10的颜色、内存属性。</p>
+<p>不同种类的商品，一个手机，一个衣服，其SKU属性不相同。</p>
+<p>同一种类的商品，比如都是衣服，SKU属性基本是一样的，都是颜色、尺码等。</p>
+<p>这样说起来，似乎SKU的特有属性也是与分类相关的？事实上，仔细观察你会发现，<strong>SKU的特有属性是商品规格参数的一部分</strong>：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1526088981953.png" alt="1526088981953"></p>
+<p>也就是说，我们没必要单独对SKU的特有属性进行设计，它可以看做是规格参数中的一部分。这样规格参数中的属性可以标记成两部分：</p>
+<ul>
+<li>spu下所有sku共享的规格属性（称为全局属性）</li>
+<li>每个sku不同的规格属性（称为特有属性）</li>
+</ul>
+<h3 id="1-2-4-搜索属性"><a href="#1-2-4-搜索属性" class="headerlink" title="1.2.4.搜索属性"></a>1.2.4.搜索属性</h3><p>打开一个搜索页，我们来看看过滤的条件：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1526090072535.png" alt="1526090072535"></p>
+<p>你会发现，过滤条件中的屏幕尺寸、运行内存、网路、机身内存、电池容量、CPU核数等，在规格参数中都能找到：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526090228171.png" alt="1526090228171"></p>
+<p>也就是说，规格参数中的数据，将来会有一部分作为搜索条件来使用。我们可以在设计时，将这部分属性标记出来，将来做搜索的时候，作为过滤条件。要注意的是，无论是SPU的全局属性，还是SKU的特有属性，都有可能作为搜索过滤条件的，并不冲突，而是有一个交集：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526091216124.png" alt="1526091216124"></p>
+<h2 id="1-3-规格参数表"><a href="#1-3-规格参数表" class="headerlink" title="1.3.规格参数表"></a>1.3.规格参数表</h2><h3 id="1-3-1-表结构"><a href="#1-3-1-表结构" class="headerlink" title="1.3.1.表结构"></a>1.3.1.表结构</h3><p>我们看下规格参数的格式：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526092179381.png" alt="1526092179381"></p>
+<p>可以看到规格参数是分组的，每一组都有多个参数键值对。不过对于规格参数的模板而言，其值现在是不确定的，不同的商品值肯定不同，模板中只要保存组信息、组内参数信息即可。</p>
+<p>因此我们设计了两张表：</p>
+<ul>
+<li>tb_spec_group：组，与商品分类关联</li>
+<li>tb_spec_param：参数名，与组关联，一对多</li>
+</ul>
+<h3 id="1-3-2-规格组"><a href="#1-3-2-规格组" class="headerlink" title="1.3.2.规格组"></a>1.3.2.规格组</h3><p>规格参数分组表：tb_spec_group</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE `tb_spec_group` (</span><br><span class="line">  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &apos;主键&apos;,</span><br><span class="line">  `cid` bigint(20) NOT NULL COMMENT &apos;商品分类id，一个分类下有多个规格组&apos;,</span><br><span class="line">  `name` varchar(50) NOT NULL COMMENT &apos;规格组的名称&apos;,</span><br><span class="line">  PRIMARY KEY (`id`),</span><br><span class="line">  KEY `key_category` (`cid`)</span><br><span class="line">) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COMMENT=&apos;规格参数的分组表，每个商品分类下有多个规格参数组&apos;;</span><br></pre></td></tr></table></figure>
+
+<p>规格组有3个字段：</p>
+<ul>
+<li>id：主键</li>
+<li>cid：商品分类id，一个分类下有多个模板</li>
+<li>name：该规格组的名称。</li>
+</ul>
+<h3 id="1-3-2-规格参数"><a href="#1-3-2-规格参数" class="headerlink" title="1.3.2.规格参数"></a>1.3.2.规格参数</h3><p>规格参数表：tb_spec_param</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE `tb_spec_param` (</span><br><span class="line">  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &apos;主键&apos;,</span><br><span class="line">  `cid` bigint(20) NOT NULL COMMENT &apos;商品分类id&apos;,</span><br><span class="line">  `group_id` bigint(20) NOT NULL,</span><br><span class="line">  `name` varchar(255) NOT NULL COMMENT &apos;参数名&apos;,</span><br><span class="line">  `numeric` tinyint(1) NOT NULL COMMENT &apos;是否是数字类型参数，true或false&apos;,</span><br><span class="line">  `unit` varchar(255) DEFAULT &apos;&apos; COMMENT &apos;数字类型参数的单位，非数字类型可以为空&apos;,</span><br><span class="line">  `generic` tinyint(1) NOT NULL COMMENT &apos;是否是sku通用属性，true或false&apos;,</span><br><span class="line">  `searching` tinyint(1) NOT NULL COMMENT &apos;是否用于搜索过滤，true或false&apos;,</span><br><span class="line">  `segments` varchar(1000) DEFAULT &apos;&apos; COMMENT &apos;数值类型参数，如果需要搜索，则添加分段间隔值，如CPU频率间隔：0.5-1.0&apos;,</span><br><span class="line">  PRIMARY KEY (`id`),</span><br><span class="line">  KEY `key_group` (`group_id`),</span><br><span class="line">  KEY `key_category` (`cid`)</span><br><span class="line">) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8 COMMENT=&apos;规格参数组下的参数名&apos;;</span><br></pre></td></tr></table></figure>
+
+<p>按道理来说，我们的规格参数就只需要记录参数名、组id、商品分类id即可。但是这里却多出了很多字段，为什么？</p>
+<p>还记得我们之前的分析吧，规格参数中有一部分是 SKU的通用属性，一部分是SKU的特有属性，而且其中会有一些将来用作搜索过滤，这些信息都需要标记出来。</p>
+<blockquote>
+<p>通用属性</p>
+</blockquote>
+<p>用一个布尔类型字段来标记是否为通用：</p>
+<ul>
+<li>generic来标记是否为通用属性：<ul>
+<li>true：代表通用属性</li>
+<li>false：代表sku特有属性</li>
+</ul>
 </li>
-<li><p>为什么要学习SpringBoot</p>
+</ul>
+<blockquote>
+<p>搜索过滤</p>
+</blockquote>
+<p>与搜索相关的有两个字段：</p>
+<ul>
+<li>searching：标记是否用作过滤<ul>
+<li>true：用于过滤搜索</li>
+<li>false：不用于过滤</li>
+</ul>
 </li>
-<li><p>SpringBoot的特点</p></li></ul>
-        
+<li>segments：某些数值类型的参数，在搜索时需要按区间划分，这里提前确定好划分区间<ul>
+<li>比如电池容量，0<del>2000mAh，2000mAh</del>3000mAh，3000mAh~4000mAh</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>数值类型</p>
+</blockquote>
+<p>某些规格参数可能为数值类型，这样的数据才需要划分区间，我们有两个字段来描述：</p>
+<ul>
+<li>numberic：是否为数值类型<ul>
+<li>true：数值类型</li>
+<li>false：不是数值类型</li>
+</ul>
+</li>
+<li>unit：参数的单位</li>
+</ul>
+<h1 id="2-商品规格参数管理"><a href="#2-商品规格参数管理" class="headerlink" title="2.商品规格参数管理"></a>2.商品规格参数管理</h1><h2 id="2-1-页面布局"><a href="#2-1-页面布局" class="headerlink" title="2.1.页面布局"></a>2.1.页面布局</h2><h3 id="2-1-1-整体布局"><a href="#2-1-1-整体布局" class="headerlink" title="2.1.1.整体布局"></a>2.1.1.整体布局</h3><p>打开规格参数页面，看到如下内容：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1529549099049.png" alt="1529549099049"></p>
+<p>商品分类树我们之前已经做过，所以这里可以直接展示出来。</p>
+<p>因为规格是跟商品分类绑定的，因此首先会展现商品分类树，并且提示你要选择商品分类，才能看到规格参数的模板。一起了解下页面的实现：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1529549521623.png" alt="1529549521623"></p>
+<p>页面结构：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528423299102.png" alt="1528423299102"></p>
+<p>这里使用了<code>v-layout</code>来完成页面布局，并且添加了row属性，代表接下来的内容是行布局（左右）。</p>
+<p>可以看出页面分成2个部分：</p>
+<ul>
+<li><code>&lt;v-flex xs3&gt;</code>：左侧，内部又分上下两部分：商品分类树及标题<ul>
+<li><code>v-card-title</code>：标题部分，这里是提示信息，告诉用户要先选择分类，才能看到模板</li>
+<li><code>v-tree</code>：这里用到的是我们之前讲过的树组件，展示商品分类树，</li>
+</ul>
+</li>
+<li><code>&lt;v-flex xs9 class=&quot;px-1&quot;&gt;</code>：右侧：内部是规格参数展示</li>
+</ul>
+<h3 id="2-1-2-右侧规格"><a href="#2-1-2-右侧规格" class="headerlink" title="2.1.2.右侧规格"></a>2.1.2.右侧规格</h3><p>当我们点击一个分类时，最终要达到的效果：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1529550402376.png" alt="1529550402376"></p>
+<p>可以看到右侧分为上下两部分：</p>
+<ul>
+<li>上部：面包屑，显示当前选中的分类</li>
+<li>下部：table，显示规格参数信息</li>
+</ul>
+<p>页面实现：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1529550694218.png" alt="1529550694218"></p>
+<p>可以看到右侧并不是我们熟悉的 <code>v-data-table</code>，而是一个<code>spec-group</code>组件（规格组）和<code>spec-param</code>组件（规格参数），这是我们定义的独立组件：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1529550775415.png" alt="1529550775415"></p>
+<p>在SpecGroup中定义了表格：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528427514717.png" alt="1528427514717"></p>
+<h2 id="2-2-规格组的查询"><a href="#2-2-规格组的查询" class="headerlink" title="2.2.规格组的查询"></a>2.2.规格组的查询</h2><h3 id="2-2-1-树节点的点击事件"><a href="#2-2-1-树节点的点击事件" class="headerlink" title="2.2.1.树节点的点击事件"></a>2.2.1.树节点的点击事件</h3><p>当我们点击树节点时，要将<code>v-dialog</code>打开，因此必须绑定一个点击事件：（Specification.vue）</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528428028513.png" alt="1528428028513"></p>
+<p>我们来看下<code>handleClick</code>方法：（Specification.vue）</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528428221957.png" alt="1528428221957"></p>
+<p>点击事件发生时，发生了两件事：</p>
+<ul>
+<li>记录当前选中的节点，选中的就是商品分类</li>
+<li><code>showGroup</code>被置为true，则规格组就会显示了。</li>
+</ul>
+<p>同时，我们把被选中的节点（商品分类）的id传递给了<code>SpecGroup</code>组件：（Specification.vue）</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528428308113.png" alt="1528428308113"></p>
+<h3 id="2-2-2-页面查询规格组"><a href="#2-2-2-页面查询规格组" class="headerlink" title="2.2.2.页面查询规格组"></a>2.2.2.页面查询规格组</h3><p>来看下<code>SpecGroup.vue</code>中的实现：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528428617046.png" alt="1528428617046"></p>
+<p>我们查看页面控制台，可以看到请求已经发出：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528428699027.png" alt="1528428699027"></p>
+<h3 id="2-2-3-后端代码"><a href="#2-2-3-后端代码" class="headerlink" title="2.2.3.后端代码"></a>2.2.3.后端代码</h3><blockquote>
+<p>实体类</p>
+</blockquote>
+<p>在<code>leyou-item-interface</code>中添加实体类：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1528429029149.png" alt="1528429029149"></p>
+<p>内容：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Table</span>(name = <span class="string">"tb_spec_group"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpecGroup</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue</span>(strategy = GenerationType.IDENTITY)</span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Long cid;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Transient</span></span><br><span class="line">    <span class="keyword">private</span> List&lt;SpecParam&gt; params;</span><br><span class="line"></span><br><span class="line">   <span class="comment">// getter和setter省略</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Table</span>(name = <span class="string">"tb_spec_param"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpecParam</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue</span>(strategy = GenerationType.IDENTITY)</span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line">    <span class="keyword">private</span> Long cid;</span><br><span class="line">    <span class="keyword">private</span> Long groupId;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="meta">@Column</span>(name = <span class="string">"`numeric`"</span>)</span><br><span class="line">    <span class="keyword">private</span> Boolean numeric;</span><br><span class="line">    <span class="keyword">private</span> String unit;</span><br><span class="line">    <span class="keyword">private</span> Boolean generic;</span><br><span class="line">    <span class="keyword">private</span> Boolean searching;</span><br><span class="line">    <span class="keyword">private</span> String segments;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// getter和setter ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在<code>leyou-item-service</code>中编写业务：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1528433648595.png" alt="1528433648595"></p>
+<blockquote>
+<p>mapper</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">SpecGroupMapper</span> <span class="keyword">extends</span> <span class="title">Mapper</span>&lt;<span class="title">SpecGroup</span>&gt; </span>&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>controller</p>
+</blockquote>
+<p>先分析下需要的东西，在页面的ajax请求中可以看出：</p>
+<ul>
+<li><p>请求方式：get</p>
+</li>
+<li><p>请求路径：/spec/groups/{cid} ，这里通过路径占位符传递商品分类的id</p>
+</li>
+<li><p>请求参数：商品分类id</p>
+</li>
+<li><p>返回结果：页面是直接把<code>resp.data</code>赋值给了groups：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528429342796.png" alt="1528429342796"></p>
+<p>那么我们返回的应该是规格组SpecGroup的集合</p>
+</li>
+</ul>
+<p>代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="meta">@RequestMapping</span>(<span class="string">"spec"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpecificationController</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> SpecificationService specificationService;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据分类id查询分组</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> cid</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@GetMapping</span>(<span class="string">"groups/&#123;cid&#125;"</span>)</span><br><span class="line">    <span class="keyword">public</span> ResponseEntity&lt;List&lt;SpecGroup&gt;&gt; queryGroupsByCid(<span class="meta">@PathVariable</span>(<span class="string">"cid"</span>)Long cid)&#123;</span><br><span class="line">        List&lt;SpecGroup&gt; groups = <span class="keyword">this</span>.specificationService.queryGroupsByCid(cid);</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(groups))&#123;</span><br><span class="line">            <span class="keyword">return</span> ResponseEntity.notFound().build();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ResponseEntity.ok(groups);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>service</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpecificationService</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> SpecGroupMapper groupMapper;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据分类id查询分组</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> cid</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;SpecGroup&gt; <span class="title">queryGroupsByCid</span><span class="params">(Long cid)</span> </span>&#123;</span><br><span class="line">        SpecGroup specGroup = <span class="keyword">new</span> SpecGroup();</span><br><span class="line">        specGroup.setCid(cid);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.groupMapper.select(specGroup);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>页面访问测试：</p>
+</blockquote>
+<p>目前，我们数据库只为手机分类（76）提供了规格组：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528433697492.png" alt="1528433697492"></p>
+<p>我们访问：<a href="http://api.leyou.com/api/item/spec/groups/76" target="_blank" rel="noopener">http://api.leyou.com/api/item/spec/groups/76</a></p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528433733340.png" alt="1528433733340"></p>
+<p>然后在后台系统中测试：<br><img src="/2019/09/15/乐优商城day08-规格参数/1528433821121.png" alt="1528433821121"></p>
+<h2 id="2-3-规格参数查询"><a href="#2-3-规格参数查询" class="headerlink" title="2.3.规格参数查询"></a>2.3.规格参数查询</h2><h3 id="2-3-1-表格切换"><a href="#2-3-1-表格切换" class="headerlink" title="2.3.1.表格切换"></a>2.3.1.表格切换</h3><p>当我们点击规格组，会切换到规格参数显示，肯定是在规格组中绑定了点击事件：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528429949504.png" alt="1528429949504"></p>
+<p>我们看下事件处理：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528429988410.png" alt="1528429988410"></p>
+<p>可以看到这里是使用了父子通信，子组件触发了select事件：</p>
+<p>再来看下父组件的事件绑定：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528430052736.png" alt="1528430052736"></p>
+<p>事件处理：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528430100166.png" alt="1528430100166"></p>
+<p>这里我们记录了选中的分组，并且把标记设置为false，这样规格组就不显示了，而是显示：<code>SpecParam</code></p>
+<p>并且，我们把group也传递到<code>spec-param</code>组件：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528430147829.png" alt="1528430147829"></p>
+<h3 id="2-3-2-页面查询规格参数"><a href="#2-3-2-页面查询规格参数" class="headerlink" title="2.3.2.页面查询规格参数"></a>2.3.2.页面查询规格参数</h3><p>我们来看<code>SpecParam.vue</code>的实现：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528430319461.png" alt="1528430319461"></p>
+<p>查看页面控制台，发现请求已经发出：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528430407298.png" alt="1528430407298"></p>
+<p>报404，因为我们还没有实现后台逻辑，接下来就去实现。</p>
+<h3 id="2-3-3-后台实现"><a href="#2-3-3-后台实现" class="headerlink" title="2.3.3.后台实现"></a>2.3.3.后台实现</h3><blockquote>
+<p>SpecificationController</p>
+</blockquote>
+<p>分析：</p>
+<ul>
+<li>请求方式：GET</li>
+<li>请求路径：/spec/params</li>
+<li>请求参数：gid，分组id</li>
+<li>返回结果：该分组下的规格参数集合<code>List&lt;SpecParam&gt;</code></li>
+</ul>
+<p>代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据条件查询规格参数</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> gid</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"><span class="meta">@GetMapping</span>(<span class="string">"params"</span>)</span><br><span class="line"><span class="keyword">public</span> ResponseEntity&lt;List&lt;SpecParam&gt;&gt; queryParams(<span class="meta">@RequestParam</span>(<span class="string">"gid"</span>)Long gid)&#123;</span><br><span class="line">    List&lt;SpecParam&gt;  params = <span class="keyword">this</span>.specificationService.queryParams(gid);</span><br><span class="line">    <span class="keyword">if</span> (CollectionUtils.isEmpty(params))&#123;</span><br><span class="line">        <span class="keyword">return</span> ResponseEntity.notFound().build();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ResponseEntity.ok(params);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>SpecificationService</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Autowired</span></span><br><span class="line"><span class="keyword">private</span> SpecParamMapper paramMapper;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据条件查询规格参数</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> gid</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> List&lt;SpecParam&gt; <span class="title">queryParams</span><span class="params">(Long gid)</span> </span>&#123;</span><br><span class="line">    SpecParam param = <span class="keyword">new</span> SpecParam();</span><br><span class="line">    param.setGroupId(gid);</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">this</span>.paramMapper.select(param);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>SpecParamMapper</p>
+</blockquote>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1543383516456.png" alt="1543383516456"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">SpecParamMapper</span> <span class="keyword">extends</span> <span class="title">Mapper</span>&lt;<span class="title">SpecParam</span>&gt; </span>&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>测试：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528442972016.png" alt="1528442972016"></p>
+<h2 id="2-4-增、删、改（作业）"><a href="#2-4-增、删、改（作业）" class="headerlink" title="2.4.增、删、改（作业）"></a>2.4.增、删、改（作业）</h2><p>增删改的作业就留给大家去完成了。页面中接口都已定义，你要做的就是实现后台接口。</p>
+<h1 id="3-SPU和SKU数据结构"><a href="#3-SPU和SKU数据结构" class="headerlink" title="3.SPU和SKU数据结构"></a>3.SPU和SKU数据结构</h1><p>规格确定以后，就可以添加商品了,先看下数据库表</p>
+<h2 id="3-1-SPU表"><a href="#3-1-SPU表" class="headerlink" title="3.1.SPU表"></a>3.1.SPU表</h2><p>SPU表：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE `tb_spu` (</span><br><span class="line">  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &apos;spu id&apos;,</span><br><span class="line">  `title` varchar(255) NOT NULL DEFAULT &apos;&apos; COMMENT &apos;标题&apos;,</span><br><span class="line">  `sub_title` varchar(255) DEFAULT &apos;&apos; COMMENT &apos;子标题&apos;,</span><br><span class="line">  `cid1` bigint(20) NOT NULL COMMENT &apos;1级类目id&apos;,</span><br><span class="line">  `cid2` bigint(20) NOT NULL COMMENT &apos;2级类目id&apos;,</span><br><span class="line">  `cid3` bigint(20) NOT NULL COMMENT &apos;3级类目id&apos;,</span><br><span class="line">  `brand_id` bigint(20) NOT NULL COMMENT &apos;商品所属品牌id&apos;,</span><br><span class="line">  `saleable` tinyint(1) NOT NULL DEFAULT &apos;1&apos; COMMENT &apos;是否上架，0下架，1上架&apos;,</span><br><span class="line">  `valid` tinyint(1) NOT NULL DEFAULT &apos;1&apos; COMMENT &apos;是否有效，0已删除，1有效&apos;,</span><br><span class="line">  `create_time` datetime DEFAULT NULL COMMENT &apos;添加时间&apos;,</span><br><span class="line">  `last_update_time` datetime DEFAULT NULL COMMENT &apos;最后修改时间&apos;,</span><br><span class="line">  PRIMARY KEY (`id`)</span><br><span class="line">) ENGINE=InnoDB AUTO_INCREMENT=208 DEFAULT CHARSET=utf8 COMMENT=&apos;spu表，该表描述的是一个抽象的商品，比如 iphone8&apos;;</span><br></pre></td></tr></table></figure>
+
+<p>与我们前面分析的基本类似，但是似乎少了一些字段，比如商品描述。</p>
+<p>我们做了表的垂直拆分，将SPU的详情放到了另一张表：tb_spu_detail</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE `tb_spu_detail` (</span><br><span class="line">  `spu_id` bigint(20) NOT NULL,</span><br><span class="line">  `description` text COMMENT &apos;商品描述信息&apos;,</span><br><span class="line">  `generic_spec` varchar(10000) NOT NULL DEFAULT &apos;&apos; COMMENT &apos;通用规格参数数据&apos;,</span><br><span class="line">  `special_spec` varchar(1000) NOT NULL COMMENT &apos;特有规格参数及可选值信息，json格式&apos;,</span><br><span class="line">  `packing_list` varchar(3000) DEFAULT &apos;&apos; COMMENT &apos;包装清单&apos;,</span><br><span class="line">  `after_service` varchar(3000) DEFAULT &apos;&apos; COMMENT &apos;售后服务&apos;,</span><br><span class="line">  PRIMARY KEY (`spu_id`)</span><br><span class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8;</span><br></pre></td></tr></table></figure>
+
+<p>这张表中的数据都比较大，为了不影响主表的查询效率我们拆分出这张表。</p>
+<p>需要注意的是这两个字段：generic_spec和special_spec。</p>
+<p>前面讲过规格参数与商品分类绑定，一个分类下的所有SPU具有类似的规格参数。SPU下的SKU可能会有不同的规格参数信息，因此我们计划是这样：</p>
+<ul>
+<li>SPUDetail中保存通用的规格参数信息。</li>
+<li>SKU中保存特有规格参数。</li>
+</ul>
+<p>来看下我们的表如何存储这些信息。</p>
+<h3 id="3-1-1-generic-spec字段"><a href="#3-1-1-generic-spec字段" class="headerlink" title="3.1.1.generic_spec字段"></a>3.1.1.generic_spec字段</h3><p>首先是<code>generic_spec</code>，其中保存通用规格参数信息的值，这里为了方便查询，使用了json格式：</p>
+<blockquote>
+<p>整体来看：</p>
+</blockquote>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1529554390912.png" alt="1529554390912"></p>
+<p>json结构，其中都是键值对：</p>
+<ul>
+<li>key：对应的规格参数的<code>spec_param</code>的id</li>
+<li>value：对应规格参数的值</li>
+</ul>
+<h3 id="3-1-2-special-spec字段"><a href="#3-1-2-special-spec字段" class="headerlink" title="3.1.2.special_spec字段"></a>3.1.2.special_spec字段</h3><p>我们说spu中只保存通用规格参数，那么为什么有多出了一个<code>special_spec</code>字段呢？</p>
+<p>以手机为例，品牌、操作系统等肯定是全局通用属性，内存、颜色等肯定是特有属性。</p>
+<p>当你确定了一个SPU，比如小米的：红米4X</p>
+<p>全局属性值都是固定的了：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">品牌：小米</span><br><span class="line">型号：红米4X</span><br></pre></td></tr></table></figure>
+
+<p>特有属性举例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">颜色：[香槟金, 樱花粉, 磨砂黑]</span><br><span class="line">内存：[2G, 3G]</span><br><span class="line">机身存储：[16GB, 32GB]</span><br></pre></td></tr></table></figure>
+
+<p>颜色、内存、机身存储，作为SKU特有属性，key虽然一样，但是SPU下的每一个SKU，其值都不一样，所以值会有很多，形成数组。</p>
+<p>我们在SPU中，会把特有属性的所有值都记录下来，形成一个数组：</p>
+<p>里面又有哪些内容呢？</p>
+<p>来看数据格式：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1529554916252.png" alt="1529554916252"></p>
+<p>也是json结构：</p>
+<ul>
+<li>key：规格参数id</li>
+<li>value：spu属性的数组</li>
+</ul>
+<p>那么问题来：特有规格参数应该在sku中记录才对，为什么在spu中也要记录一份？</p>
+<p>因为我们有时候需要把所有规格参数都查询出来，而不是只查询1个sku的属性。比如，商品详情页展示可选的规格参数时：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526267828817.png" alt="1526267828817"></p>
+<p>刚好符合我们的结构，这样页面渲染就非常方便了。</p>
+<h2 id="3-2-SKU表"><a href="#3-2-SKU表" class="headerlink" title="3.2.SKU表"></a>3.2.SKU表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE `tb_sku` (</span><br><span class="line">  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &apos;sku id&apos;,</span><br><span class="line">  `spu_id` bigint(20) NOT NULL COMMENT &apos;spu id&apos;,</span><br><span class="line">  `title` varchar(255) NOT NULL COMMENT &apos;商品标题&apos;,</span><br><span class="line">  `images` varchar(1000) DEFAULT &apos;&apos; COMMENT &apos;商品的图片，多个图片以‘,’分割&apos;,</span><br><span class="line">  `price` bigint(15) NOT NULL DEFAULT &apos;0&apos; COMMENT &apos;销售价格，单位为分&apos;,</span><br><span class="line">  `indexes` varchar(100) COMMENT &apos;特有规格属性在spu属性模板中的对应下标组合&apos;,</span><br><span class="line">  `own_spec` varchar(1000) COMMENT &apos;sku的特有规格参数，json格式&apos;,</span><br><span class="line">  `enable` tinyint(1) NOT NULL DEFAULT &apos;1&apos; COMMENT &apos;是否有效，0无效，1有效&apos;,</span><br><span class="line">  `create_time` datetime NOT NULL COMMENT &apos;添加时间&apos;,</span><br><span class="line">  `last_update_time` datetime NOT NULL COMMENT &apos;最后修改时间&apos;,</span><br><span class="line">  PRIMARY KEY (`id`),</span><br><span class="line">  KEY `key_spu_id` (`spu_id`) USING BTREE</span><br><span class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT=&apos;sku表,该表表示具体的商品实体,如黑色的64GB的iphone 8&apos;;</span><br></pre></td></tr></table></figure>
+
+<p>还有一张表，代表库存：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE `tb_stock` (</span><br><span class="line">  `sku_id` bigint(20) NOT NULL COMMENT &apos;库存对应的商品sku id&apos;,</span><br><span class="line">  `seckill_stock` int(9) DEFAULT &apos;0&apos; COMMENT &apos;可秒杀库存&apos;,</span><br><span class="line">  `seckill_total` int(9) DEFAULT &apos;0&apos; COMMENT &apos;秒杀总数量&apos;,</span><br><span class="line">  `stock` int(9) NOT NULL COMMENT &apos;库存数量&apos;,</span><br><span class="line">  PRIMARY KEY (`sku_id`)</span><br><span class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT=&apos;库存表，代表库存，秒杀库存等信息&apos;;</span><br></pre></td></tr></table></figure>
+
+<p>问题：为什么要将库存独立一张表？</p>
+<p>因为库存字段写频率较高，而SKU的其它字段以读为主，因此我们将两张表分离，读写不会干扰。</p>
+<p>特别需要注意的是sku表中的<code>indexes</code>字段和<code>own_spec</code>字段。sku中应该保存特有规格参数的值，就在这两个字段中。</p>
+<h3 id="3-2-1-indexes字段"><a href="#3-2-1-indexes字段" class="headerlink" title="3.2.1.indexes字段"></a>3.2.1.indexes字段</h3><p>在SPU表中，已经对特有规格参数及可选项进行了保存，结构如下：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"4"</span>: [</span><br><span class="line">        <span class="string">"香槟金"</span>,</span><br><span class="line">        <span class="string">"樱花粉"</span>,</span><br><span class="line">        <span class="string">"磨砂黑"</span></span><br><span class="line">    ],</span><br><span class="line">    <span class="attr">"12"</span>: [</span><br><span class="line">        <span class="string">"2GB"</span>,</span><br><span class="line">        <span class="string">"3GB"</span></span><br><span class="line">    ],</span><br><span class="line">    <span class="attr">"13"</span>: [</span><br><span class="line">        <span class="string">"16GB"</span>,</span><br><span class="line">        <span class="string">"32GB"</span></span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这些特有属性如果排列组合，会产生12个不同的SKU，而不同的SKU，其属性就是上面备选项中的一个。</p>
+<p>比如：</p>
+<ul>
+<li>红米4X，香槟金，2GB内存，16GB存储</li>
+<li>红米4X，磨砂黑，2GB内存，32GB存储</li>
+</ul>
+<p>你会发现，每一个属性值，对应于SPUoptions数组的一个选项，如果我们记录下角标，就是这样：</p>
+<ul>
+<li>红米4X，0,0,0</li>
+<li>红米4X，2,0,1</li>
+</ul>
+<p>既然如此，我们是不是可以将不同角标串联起来，作为SPU下不同SKU的标示。这就是我们的indexes字段。</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526266901335.png" alt="1526266901335"></p>
+<p>这个设计在商品详情页会特别有用：</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1526267180997.png" alt="1526267180997"></p>
+<p>当用户点击选中一个特有属性，你就能根据 角标快速定位到sku。</p>
+<h3 id="3-2-2-own-spec字段"><a href="#3-2-2-own-spec字段" class="headerlink" title="3.2.2.own_spec字段"></a>3.2.2.own_spec字段</h3><p>看结构：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;<span class="attr">"4"</span>:<span class="string">"香槟金"</span>,<span class="attr">"12"</span>:<span class="string">"2GB"</span>,<span class="attr">"13"</span>:<span class="string">"16GB"</span>&#125;</span><br></pre></td></tr></table></figure>
+
+<p>保存的是特有属性的键值对。</p>
+<p>SPU中保存的是可选项，但不确定具体的值，而SKU中的保存的就是具体的值。</p>
+<h2 id="3-3-导入图片信息"><a href="#3-3-导入图片信息" class="headerlink" title="3.3.导入图片信息"></a>3.3.导入图片信息</h2><p>现在商品表中虽然有数据，但是所有的图片信息都是无法访问的，我们需要把图片导入到虚拟机：</p>
+<p>首先，把课前资料提供的数据上传到虚拟机下：<code>/leyou/static</code>目录：在leyou下创建static目录</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528445149890.png" alt="1528445149890"></p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528479229165.png" alt="1528479229165"></p>
+<p>然后，使用命令解压缩：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">unzip images.zip</span><br></pre></td></tr></table></figure>
+
+<p>修改Nginx配置，使nginx反向代理这些图片地址：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /opt/nginx/config/nginx.conf</span><br></pre></td></tr></table></figure>
+
+<p>修改成如下配置：</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">server</span> &#123;</span><br><span class="line">    <span class="attribute">listen</span>       <span class="number">80</span>;</span><br><span class="line">    <span class="attribute">server_name</span>  image.leyou.com;</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 监听域名中带有group的，交给FastDFS模块处理</span></span><br><span class="line">    <span class="attribute">location</span> ~/group([<span class="number">0</span>-<span class="number">9</span>])/ &#123;</span><br><span class="line">        ngx_fastdfs_module;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment"># 将其它图片代理指向本地的/leyou/static目录</span></span><br><span class="line">    <span class="attribute">location</span> / &#123;</span><br><span class="line">        <span class="attribute">root</span>   /leyou/static/;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="attribute">error_page</span>   <span class="number">500</span> <span class="number">502</span> <span class="number">503</span> <span class="number">504</span>  /50x.html;</span><br><span class="line">    <span class="attribute">location</span> = /50x.html &#123;</span><br><span class="line">        <span class="attribute">root</span>   html;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>不要忘记重新加载nginx配置</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nginx -s reload</span><br></pre></td></tr></table></figure>
+
+<h1 id="4-商品查询"><a href="#4-商品查询" class="headerlink" title="4.商品查询"></a>4.商品查询</h1><h2 id="4-1-效果预览"><a href="#4-1-效果预览" class="headerlink" title="4.1.效果预览"></a>4.1.效果预览</h2><p>接下来，我们实现商品管理的页面，先看下我们要实现的效果：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1526268595873.png" alt="1526268595873"></p>
+<p>可以看出整体是一个table，然后有新增按钮。是不是跟昨天写品牌管理很像？</p>
+<h2 id="4-2-页面请求"><a href="#4-2-页面请求" class="headerlink" title="4.2.页面请求"></a>4.2.页面请求</h2><p>先看整体页面结构（Goods.vue）：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528447301687.png" alt="1528447301687"></p>
+<p>并且在Vue实例挂载后就会发起查询(mounted调用getDataFromServer方法初始化数据)：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528447431959.png" alt="1528447431959"></p>
+<p>我们刷新页面，可以看到浏览器发起已经发起了查询商品数据的请求：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528447591939.png" alt="1528447591939"></p>
+<p>因此接下来，我们编写接口即可。</p>
+<h2 id="4-3-后台提供接口"><a href="#4-3-后台提供接口" class="headerlink" title="4.3.后台提供接口"></a>4.3.后台提供接口</h2><p>页面已经准备好，接下来在后台提供分页查询SPU的功能。</p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1543414148030.png" alt="1543414148030"></p>
+<p> <img src="/2019/09/15/乐优商城day08-规格参数/1543413983147.png" alt="1543413983147"></p>
+<h3 id="4-3-1-实体类"><a href="#4-3-1-实体类" class="headerlink" title="4.3.1.实体类"></a>4.3.1.实体类</h3><p>在leyou-item-interface工程中添加实体类：</p>
+<blockquote>
+<p>SPU</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Table</span>(name = <span class="string">"tb_spu"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Spu</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue</span>(strategy = GenerationType.IDENTITY)</span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line">    <span class="keyword">private</span> Long brandId;</span><br><span class="line">    <span class="keyword">private</span> Long cid1;<span class="comment">// 1级类目</span></span><br><span class="line">    <span class="keyword">private</span> Long cid2;<span class="comment">// 2级类目</span></span><br><span class="line">    <span class="keyword">private</span> Long cid3;<span class="comment">// 3级类目</span></span><br><span class="line">    <span class="keyword">private</span> String title;<span class="comment">// 标题</span></span><br><span class="line">    <span class="keyword">private</span> String subTitle;<span class="comment">// 子标题</span></span><br><span class="line">    <span class="keyword">private</span> Boolean saleable;<span class="comment">// 是否上架</span></span><br><span class="line">    <span class="keyword">private</span> Boolean valid;<span class="comment">// 是否有效，逻辑删除用</span></span><br><span class="line">    <span class="keyword">private</span> Date createTime;<span class="comment">// 创建时间</span></span><br><span class="line">    <span class="keyword">private</span> Date lastUpdateTime;<span class="comment">// 最后修改时间</span></span><br><span class="line">	<span class="comment">// 省略getter和setter</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>SPU详情</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Table</span>(name=<span class="string">"tb_spu_detail"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpuDetail</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="keyword">private</span> Long spuId;<span class="comment">// 对应的SPU的id</span></span><br><span class="line">    <span class="keyword">private</span> String description;<span class="comment">// 商品描述</span></span><br><span class="line">    <span class="keyword">private</span> String specialSpec;<span class="comment">// 商品特殊规格的名称及可选值模板</span></span><br><span class="line">    <span class="keyword">private</span> String genericSpec;<span class="comment">// 商品的全局规格属性</span></span><br><span class="line">    <span class="keyword">private</span> String packingList;<span class="comment">// 包装清单</span></span><br><span class="line">    <span class="keyword">private</span> String afterService;<span class="comment">// 售后服务</span></span><br><span class="line">    <span class="comment">// 省略getter和setter</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-4-2-mapper"><a href="#4-4-2-mapper" class="headerlink" title="4.4.2.mapper"></a>4.4.2.mapper</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">SpuMapper</span> <span class="keyword">extends</span> <span class="title">Mapper</span>&lt;<span class="title">Spu</span>&gt; </span>&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-3-3-controller"><a href="#4-3-3-controller" class="headerlink" title="4.3.3.controller"></a>4.3.3.controller</h3><p>先分析：</p>
+<ul>
+<li><p>请求方式：GET</p>
+</li>
+<li><p>请求路径：/spu/page</p>
+</li>
+<li><p>请求参数：</p>
+<ul>
+<li>page：当前页</li>
+<li>rows：每页大小</li>
+<li>key：过滤条件</li>
+<li>saleable：上架或下架</li>
+</ul>
+</li>
+<li><p>返回结果：商品SPU的分页信息。</p>
+<ul>
+<li><p>要注意，页面展示的是商品分类和品牌名称，而数据库中保存的是id，怎么办？</p>
+<p>我们可以新建一个类，继承SPU，并且拓展cname和bname属性，写到<code>leyou-item-interface</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpuBo</span> <span class="keyword">extends</span> <span class="title">Spu</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    String cname;<span class="comment">// 商品分类名称</span></span><br><span class="line">    </span><br><span class="line">    String bname;<span class="comment">// 品牌名称</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 略 。。</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+</li>
+</ul>
+<p>编写controller代码：</p>
+<p>我们把与商品相关的一切业务接口都放到一起，起名为GoodsController，业务层也是这样</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Controller</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GoodsController</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> GoodsService goodsService;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping</span>(<span class="string">"spu/page"</span>)</span><br><span class="line">    <span class="keyword">public</span> ResponseEntity&lt;PageResult&lt;SpuBo&gt;&gt; querySpuBoByPage(</span><br><span class="line">            <span class="meta">@RequestParam</span>(value = <span class="string">"key"</span>, required = <span class="keyword">false</span>)String key,</span><br><span class="line">            <span class="meta">@RequestParam</span>(value = <span class="string">"saleable"</span>, required = <span class="keyword">false</span>)Boolean saleable,</span><br><span class="line">            <span class="meta">@RequestParam</span>(value = <span class="string">"page"</span>, defaultValue = <span class="string">"1"</span>)Integer page,</span><br><span class="line">            <span class="meta">@RequestParam</span>(value = <span class="string">"rows"</span>, defaultValue = <span class="string">"5"</span>)Integer rows</span><br><span class="line">    )&#123;</span><br><span class="line">        PageResult&lt;SpuBo&gt; pageResult = <span class="keyword">this</span>.goodsService.querySpuBoByPage(key, saleable, page, rows);</span><br><span class="line">        <span class="keyword">if</span>(CollectionUtils.isEmpty(pageResult.getItems()))&#123;</span><br><span class="line">            <span class="keyword">return</span> ResponseEntity.notFound().build();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ResponseEntity.ok(pageResult);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-4-4-service"><a href="#4-4-4-service" class="headerlink" title="4.4.4.service"></a>4.4.4.service</h3><p>所有商品相关的业务（包括SPU和SKU）放到一个业务下：GoodsService。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GoodsService</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> SpuMapper spuMapper;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> CategoryService categoryService;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> BrandMapper brandMapper;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> PageResult&lt;SpuBo&gt; <span class="title">querySpuBoByPage</span><span class="params">(String key, Boolean saleable, Integer page, Integer rows)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        Example example = <span class="keyword">new</span> Example(Spu.class);</span><br><span class="line">        Example.Criteria criteria = example.createCriteria();</span><br><span class="line">        <span class="comment">// 搜索条件</span></span><br><span class="line">        <span class="keyword">if</span> (StringUtils.isNotBlank(key)) &#123;</span><br><span class="line">            criteria.andLike(<span class="string">"title"</span>, <span class="string">"%"</span> + key + <span class="string">"%"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (saleable != <span class="keyword">null</span>) &#123;</span><br><span class="line">            criteria.andEqualTo(<span class="string">"saleable"</span>, saleable);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 分页条件</span></span><br><span class="line">        PageHelper.startPage(page, rows);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 执行查询</span></span><br><span class="line">        List&lt;Spu&gt; spus = <span class="keyword">this</span>.spuMapper.selectByExample(example);</span><br><span class="line">        PageInfo&lt;Spu&gt; pageInfo = <span class="keyword">new</span> PageInfo&lt;&gt;(spus);</span><br><span class="line"></span><br><span class="line">        List&lt;SpuBo&gt; spuBos = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        spus.forEach(spu-&gt;&#123;</span><br><span class="line">            SpuBo spuBo = <span class="keyword">new</span> SpuBo();</span><br><span class="line">            <span class="comment">// copy共同属性的值到新的对象</span></span><br><span class="line">            BeanUtils.copyProperties(spu, spuBo);</span><br><span class="line">            <span class="comment">// 查询分类名称</span></span><br><span class="line">            List&lt;String&gt; names = <span class="keyword">this</span>.categoryService.queryNamesByIds(Arrays.asList(spu.getCid1(), spu.getCid2(), spu.getCid3()));</span><br><span class="line">            spuBo.setCname(StringUtils.join(names, <span class="string">"/"</span>));</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 查询品牌的名称</span></span><br><span class="line">            spuBo.setBname(<span class="keyword">this</span>.brandMapper.selectByPrimaryKey(spu.getBrandId()).getName());</span><br><span class="line"></span><br><span class="line">            spuBos.add(spuBo);</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> PageResult&lt;&gt;(pageInfo.getTotal(), spuBos);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-4-5-Category中拓展查询名称的功能"><a href="#4-4-5-Category中拓展查询名称的功能" class="headerlink" title="4.4.5.Category中拓展查询名称的功能"></a>4.4.5.Category中拓展查询名称的功能</h3><p>页面需要商品的分类名称需要在这里查询，因此要额外提供查询分类名称的功能，</p>
+<p>在CategoryService中添加功能：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> List&lt;String&gt; <span class="title">queryNamesByIds</span><span class="params">(List&lt;Long&gt; ids)</span> </span>&#123;</span><br><span class="line">    List&lt;Category&gt; list = <span class="keyword">this</span>.categoryMapper.selectByIdList(ids);</span><br><span class="line">    List&lt;String&gt; names = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">    <span class="keyword">for</span> (Category category : list) &#123;</span><br><span class="line">        names.add(category.getName());</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> names;</span><br><span class="line">    <span class="comment">// return list.stream().map(category -&gt; category.getName()).collect(Collectors.toList());</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>mapper的selectByIdList方法是来自于通用mapper。不过需要我们在mapper上继承一个通用mapper接口：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">CategoryMapper</span> <span class="keyword">extends</span> <span class="title">Mapper</span>&lt;<span class="title">Category</span>&gt;, <span class="title">SelectByIdListMapper</span>&lt;<span class="title">Category</span>, <span class="title">Long</span>&gt; </span>&#123; </span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-5-测试"><a href="#4-5-测试" class="headerlink" title="4.5.测试"></a>4.5.测试</h2><p>刷新页面，查看效果：</p>
+<p><img src="/2019/09/15/乐优商城day08-规格参数/1528450054541.png" alt="1528450054541"></p>
+<p>基本与预览的效果一致，OK！</p>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -774,16 +690,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/08/乐优商城day01-SpringBoot/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/15/乐优商城day08-规格参数/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2019/09/14/乐优商城day07-02fastDFS的安装/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">乐优商城day07-02fastDFS的安装</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -798,84 +773,43 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-我的第一篇博客文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/09/08/我的第一篇博客文章/">我的第一篇博客文章</a>
-    </h1>
-  
-
-        
-        <a href="/2019/09/08/我的第一篇博客文章/" class="archive-article-date">
-  	<time datetime="2019-09-08T01:51:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-08</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>2019年9月8日上午十点，开始了第一次个人博客的搭建过程</p>
-<hr>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>无内容</p>
-<hr>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>有些饿</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/09/08/我的第一篇博客文章/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#0-学习目标"><span class="toc-number">1.</span> <span class="toc-text">0.学习目标</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-商品规格数据结构"><span class="toc-number">2.</span> <span class="toc-text">1.商品规格数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-SPU和SKU"><span class="toc-number">2.1.</span> <span class="toc-text">1.1.SPU和SKU</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-数据库设计分析"><span class="toc-number">2.2.</span> <span class="toc-text">1.2.数据库设计分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-1-思考并发现问题"><span class="toc-number">2.2.1.</span> <span class="toc-text">1.2.1.思考并发现问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-2-分析规格参数"><span class="toc-number">2.2.2.</span> <span class="toc-text">1.2.2.分析规格参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-3-SKU的特有属性"><span class="toc-number">2.2.3.</span> <span class="toc-text">1.2.3.SKU的特有属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-4-搜索属性"><span class="toc-number">2.2.4.</span> <span class="toc-text">1.2.4.搜索属性</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-规格参数表"><span class="toc-number">2.3.</span> <span class="toc-text">1.3.规格参数表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-1-表结构"><span class="toc-number">2.3.1.</span> <span class="toc-text">1.3.1.表结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-2-规格组"><span class="toc-number">2.3.2.</span> <span class="toc-text">1.3.2.规格组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-2-规格参数"><span class="toc-number">2.3.3.</span> <span class="toc-text">1.3.2.规格参数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-商品规格参数管理"><span class="toc-number">3.</span> <span class="toc-text">2.商品规格参数管理</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-页面布局"><span class="toc-number">3.1.</span> <span class="toc-text">2.1.页面布局</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-1-整体布局"><span class="toc-number">3.1.1.</span> <span class="toc-text">2.1.1.整体布局</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-2-右侧规格"><span class="toc-number">3.1.2.</span> <span class="toc-text">2.1.2.右侧规格</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-规格组的查询"><span class="toc-number">3.2.</span> <span class="toc-text">2.2.规格组的查询</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-1-树节点的点击事件"><span class="toc-number">3.2.1.</span> <span class="toc-text">2.2.1.树节点的点击事件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-2-页面查询规格组"><span class="toc-number">3.2.2.</span> <span class="toc-text">2.2.2.页面查询规格组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-3-后端代码"><span class="toc-number">3.2.3.</span> <span class="toc-text">2.2.3.后端代码</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-规格参数查询"><span class="toc-number">3.3.</span> <span class="toc-text">2.3.规格参数查询</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-1-表格切换"><span class="toc-number">3.3.1.</span> <span class="toc-text">2.3.1.表格切换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-2-页面查询规格参数"><span class="toc-number">3.3.2.</span> <span class="toc-text">2.3.2.页面查询规格参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-3-后台实现"><span class="toc-number">3.3.3.</span> <span class="toc-text">2.3.3.后台实现</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-4-增、删、改（作业）"><span class="toc-number">3.4.</span> <span class="toc-text">2.4.增、删、改（作业）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-SPU和SKU数据结构"><span class="toc-number">4.</span> <span class="toc-text">3.SPU和SKU数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-SPU表"><span class="toc-number">4.1.</span> <span class="toc-text">3.1.SPU表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-1-generic-spec字段"><span class="toc-number">4.1.1.</span> <span class="toc-text">3.1.1.generic_spec字段</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-2-special-spec字段"><span class="toc-number">4.1.2.</span> <span class="toc-text">3.1.2.special_spec字段</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-SKU表"><span class="toc-number">4.2.</span> <span class="toc-text">3.2.SKU表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-1-indexes字段"><span class="toc-number">4.2.1.</span> <span class="toc-text">3.2.1.indexes字段</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-2-own-spec字段"><span class="toc-number">4.2.2.</span> <span class="toc-text">3.2.2.own_spec字段</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-导入图片信息"><span class="toc-number">4.3.</span> <span class="toc-text">3.3.导入图片信息</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-商品查询"><span class="toc-number">5.</span> <span class="toc-text">4.商品查询</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-效果预览"><span class="toc-number">5.1.</span> <span class="toc-text">4.1.效果预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-2-页面请求"><span class="toc-number">5.2.</span> <span class="toc-text">4.2.页面请求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-3-后台提供接口"><span class="toc-number">5.3.</span> <span class="toc-text">4.3.后台提供接口</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-3-1-实体类"><span class="toc-number">5.3.1.</span> <span class="toc-text">4.3.1.实体类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-4-2-mapper"><span class="toc-number">5.3.2.</span> <span class="toc-text">4.4.2.mapper</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-3-3-controller"><span class="toc-number">5.3.3.</span> <span class="toc-text">4.3.3.controller</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-4-4-service"><span class="toc-number">5.3.4.</span> <span class="toc-text">4.4.4.service</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-4-5-Category中拓展查询名称的功能"><span class="toc-number">5.3.5.</span> <span class="toc-text">4.4.5.Category中拓展查询名称的功能</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-5-测试"><span class="toc-number">5.4.</span> <span class="toc-text">4.5.测试</span></a></li></ol></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
+  
+  
+  
+  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: "http://yoursite.com/2019/09/15/乐优商城day08-规格参数/", 
+    sourceId: "乐优商城day08-规格参数",
+    productKey: "true",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="//img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+  
 
   
+
   
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
+
   
 
 
@@ -898,8 +832,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
