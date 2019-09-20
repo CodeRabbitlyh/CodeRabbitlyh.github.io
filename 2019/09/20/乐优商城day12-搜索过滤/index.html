@@ -6,20 +6,72 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>我的第一篇博客文章 | CodeRabbit个人博客</title>
+  <title>乐优商城day12-搜索过滤 | CodeRabbit个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="第一章2019年9月8日上午十点，开始了第一次个人博客的搭建过程  第二章无内容  结语有些饿">
+  <meta name="description" content="0.学习目标 了解过滤功能的基本思路  实现分类和品牌展示  了解规格参数展示  实现过滤条件筛选  实现已选过滤项回显  实现取消选择过滤项">
 <meta name="keywords" content="前端博客，后端博客，java,vue.js,jquery,html5,springboot,springcloud">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇博客文章">
-<meta property="og:url" content="http://yoursite.com/2019/09/08/我的第一篇博客文章/index.html">
+<meta property="og:title" content="乐优商城day12-搜索过滤">
+<meta property="og:url" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/index.html">
 <meta property="og:site_name" content="CodeRabbit个人博客">
-<meta property="og:description" content="第一章2019年9月8日上午十点，开始了第一次个人博客的搭建过程  第二章无内容  结语有些饿">
+<meta property="og:description" content="0.学习目标 了解过滤功能的基本思路  实现分类和品牌展示  了解规格参数展示  实现过滤条件筛选  实现已选过滤项回显  实现取消选择过滤项">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-08T02:06:34.580Z">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526725119663.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526738120021.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1543671901773.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532259453938.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526742664217.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526742817804.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532261937404.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532260781128.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526803362517.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532264524663.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526805322441.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1543673893654.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1543673960091.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1543674113503.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1543674179820.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1543674250920.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532270167684.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532271319440.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526836508277.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532271362148.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532271577293.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532272309322.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532272262743.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532273487583.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1533566768364.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532272879418.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532273144046.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532274670784.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1532274821104.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526910290497.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1533567897849.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1543674461682.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1543674644998.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526910966728.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526911057839.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526911090064.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526912181355.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526912781014.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526914910479.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1528416823546.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526914954839.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526911364625.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526911311273.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526911811998.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526915075037.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526915191753.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526916315470.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526916538925.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526916815264.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526916838222.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526955150293.png">
+<meta property="og:updated_time" content="2019-09-20T00:44:39.864Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我的第一篇博客文章">
-<meta name="twitter:description" content="第一章2019年9月8日上午十点，开始了第一次个人博客的搭建过程  第二章无内容  结语有些饿">
+<meta name="twitter:title" content="乐优商城day12-搜索过滤">
+<meta name="twitter:description" content="0.学习目标 了解过滤功能的基本思路  实现分类和品牌展示  了解规格参数展示  实现过滤条件筛选  实现已选过滤项回显  实现取消选择过滤项">
+<meta name="twitter:image" content="http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/1526725119663.png">
   
     <link rel="alternative" href="/atom.xml" title="CodeRabbit个人博客" type="application/atom+xml">
   
@@ -155,31 +207,334 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-我的第一篇博客文章" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-乐优商城day12-搜索过滤" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇博客文章
+      乐优商城day12-搜索过滤
     </h1>
   
 
         
-        <a href="/2019/09/08/我的第一篇博客文章/" class="archive-article-date">
-  	<time datetime="2019-09-08T01:51:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-08</time>
+        <a href="/2019/09/20/乐优商城day12-搜索过滤/" class="archive-article-date">
+  	<time datetime="2019-09-20T00:42:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-20</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>2019年9月8日上午十点，开始了第一次个人博客的搭建过程</p>
-<hr>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>无内容</p>
-<hr>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>有些饿</p>
+        <h1 id="0-学习目标"><a href="#0-学习目标" class="headerlink" title="0.学习目标"></a>0.学习目标</h1><ul>
+<li><p>了解过滤功能的基本思路</p>
+</li>
+<li><p>实现分类和品牌展示</p>
+</li>
+<li><p>了解规格参数展示</p>
+</li>
+<li><p>实现过滤条件筛选</p>
+</li>
+<li><p>实现已选过滤项回显</p>
+</li>
+<li><p>实现取消选择过滤项</p>
+<a id="more"></a>
+
+
+
+</li>
+</ul>
+<h1 id="1-过滤功能分析"><a href="#1-过滤功能分析" class="headerlink" title="1.过滤功能分析"></a>1.过滤功能分析</h1><p>首先看下页面要实现的效果：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526725119663.png" alt="1526725119663"></p>
+<p>整个过滤部分有3块：</p>
+<ul>
+<li>顶部的导航，已经选择的过滤条件展示：<ul>
+<li>商品分类面包屑，根据用户选择的商品分类变化</li>
+<li>其它已选择过滤参数</li>
+</ul>
+</li>
+<li>过滤条件展示，又包含3部分<ul>
+<li>商品分类展示</li>
+<li>品牌展示</li>
+<li>其它规格参数</li>
+</ul>
+</li>
+<li>展开或收起的过滤条件的按钮</li>
+</ul>
+<p>顶部导航要展示的内容跟用户选择的过滤条件有关。</p>
+<ul>
+<li>比如用户选择了某个商品分类，则面包屑中才会展示具体的分类</li>
+<li>比如用户选择了某个品牌，列表中才会有品牌信息。</li>
+</ul>
+<p>所以，这部分需要依赖第二部分：过滤条件的展示和选择。因此我们先不着急去做。</p>
+<p>展开或收起的按钮是否显示，取决于过滤条件有多少，如果很少，那么就没必要展示。所以也是跟第二部分的过滤条件有关。</p>
+<p>这样分析来看，我们必须先做第二部分：过滤条件展示。</p>
+<h1 id="2-生成分类和品牌过滤"><a href="#2-生成分类和品牌过滤" class="headerlink" title="2.生成分类和品牌过滤"></a>2.生成分类和品牌过滤</h1><p>先来看分类和品牌。在我们的数据库中已经有所有的分类和品牌信息。在这个位置，是不是把所有的分类和品牌信息都展示出来呢？</p>
+<p>显然不是，用户搜索的条件会对商品进行过滤，而在搜索结果中，不一定包含所有的分类和品牌，直接展示出所有商品分类，让用户选择显然是不合适的。</p>
+<p>无论是分类信息，还是品牌信息，都应该从搜索的结果商品中进行聚合得到。</p>
+<h2 id="2-1-扩展返回的结果"><a href="#2-1-扩展返回的结果" class="headerlink" title="2.1.扩展返回的结果"></a>2.1.扩展返回的结果</h2><p>原来，我们返回的结果是PageResult对象，里面只有total、totalPage、items3个属性。但是现在要对商品分类和品牌进行聚合，数据显然不够用，我们需要对返回的结果进行扩展，添加分类和品牌的数据。</p>
+<p>那么问题来了：以什么格式返回呢？</p>
+<p>看页面：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526738120021.png" alt="1526738120021"></p>
+<p>分类：页面显示了分类名称，但背后肯定要保存id信息。所以至少要有id和name</p>
+<p>品牌：页面展示的有logo，有文字，当然肯定有id，基本上是品牌的完整数据</p>
+<p>我们新建一个类，继承PageResult，然后扩展两个新的属性：分类集合和品牌集合：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1543671901773.png" alt="1543671901773"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SearchResult</span> <span class="keyword">extends</span> <span class="title">PageResult</span>&lt;<span class="title">Goods</span>&gt; </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">private</span> List&lt;Map&lt;String, Object&gt;&gt; categories;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Brand&gt; brands;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">SearchResult</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">SearchResult</span><span class="params">(List&lt;Map&lt;String, Object&gt;&gt; categories, List&lt;Brand&gt; brands)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">        <span class="keyword">this</span>.brands = brands;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">SearchResult</span><span class="params">(List&lt;Goods&gt; items, Long total, List&lt;Map&lt;String, Object&gt;&gt; categories, List&lt;Brand&gt; brands)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(items, total);</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">        <span class="keyword">this</span>.brands = brands;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">SearchResult</span><span class="params">(List&lt;Goods&gt; items, Long total, Integer totalPage, List&lt;Map&lt;String, Object&gt;&gt; categories, List&lt;Brand&gt; brands)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(items, total, totalPage);</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">        <span class="keyword">this</span>.brands = brands;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> List&lt;Map&lt;String, Object&gt;&gt; getCategories() &#123;</span><br><span class="line">        <span class="keyword">return</span> categories;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setCategories</span><span class="params">(List&lt;Map&lt;String, Object&gt;&gt; categories)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Brand&gt; <span class="title">getBrands</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> brands;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setBrands</span><span class="params">(List&lt;Brand&gt; brands)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.brands = brands;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-2-聚合商品分类和品牌"><a href="#2-2-聚合商品分类和品牌" class="headerlink" title="2.2.聚合商品分类和品牌"></a>2.2.聚合商品分类和品牌</h2><p>我们修改搜索的业务逻辑，对分类和品牌聚合。</p>
+<p>因为索引库中只有id，所以我们根据id聚合，然后再根据id去查询完整数据。</p>
+<p>所以，商品微服务需要提供一个接口：根据品牌id集合，批量查询品牌。</p>
+<p>修改SearchService：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> SearchResult <span class="title">search</span><span class="params">(SearchRequest request)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 判断查询条件</span></span><br><span class="line">    <span class="keyword">if</span> (StringUtils.isBlank(request.getKey())) &#123;</span><br><span class="line">        <span class="comment">// 返回默认结果集</span></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 初始化自定义查询构建器</span></span><br><span class="line">    NativeSearchQueryBuilder queryBuilder = <span class="keyword">new</span> NativeSearchQueryBuilder();</span><br><span class="line">    <span class="comment">// 添加查询条件</span></span><br><span class="line">    queryBuilder.withQuery(QueryBuilders.matchQuery(<span class="string">"all"</span>, request.getKey()).operator(Operator.AND));</span><br><span class="line">    <span class="comment">// 添加结果集过滤，只需要：id,subTitle, skus</span></span><br><span class="line">    queryBuilder.withSourceFilter(<span class="keyword">new</span> FetchSourceFilter(<span class="keyword">new</span> String[]&#123;<span class="string">"id"</span>, <span class="string">"subTitle"</span>, <span class="string">"skus"</span>&#125;, <span class="keyword">null</span>));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 获取分页参数</span></span><br><span class="line">    Integer page = request.getPage();</span><br><span class="line">    Integer size = request.getSize();</span><br><span class="line">    <span class="comment">// 添加分页</span></span><br><span class="line">    queryBuilder.withPageable(PageRequest.of(page - <span class="number">1</span>, size));</span><br><span class="line"></span><br><span class="line">    String categoryAggName = <span class="string">"categories"</span>;</span><br><span class="line">    String brandAggName = <span class="string">"brands"</span>;</span><br><span class="line">    queryBuilder.addAggregation(AggregationBuilders.terms(categoryAggName).field(<span class="string">"cid3"</span>));</span><br><span class="line">    queryBuilder.addAggregation(AggregationBuilders.terms(brandAggName).field(<span class="string">"brandId"</span>));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 执行搜索，获取搜索的结果集</span></span><br><span class="line">    AggregatedPage&lt;Goods&gt; goodsPage = (AggregatedPage&lt;Goods&gt;)<span class="keyword">this</span>.goodsReponsitory.search(queryBuilder.build());</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 解析聚合结果集</span></span><br><span class="line">    List&lt;Map&lt;String, Object&gt;&gt; categories = getCategoryAggResult(goodsPage.getAggregation(categoryAggName));</span><br><span class="line">    List&lt;Brand&gt; brands = getBrandAggResult(goodsPage.getAggregation(brandAggName));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 封装成需要的返回结果集</span></span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> SearchResult(goodsPage.getContent(), goodsPage.getTotalElements(), goodsPage.getTotalPages(), categories, brands);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 解析品牌聚合结果集</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> aggregation</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"><span class="function"><span class="keyword">private</span> List&lt;Brand&gt; <span class="title">getBrandAggResult</span><span class="params">(Aggregation aggregation)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 处理聚合结果集</span></span><br><span class="line">    LongTerms terms = (LongTerms)aggregation;</span><br><span class="line">    <span class="comment">// 获取所有的品牌id桶</span></span><br><span class="line">    List&lt;LongTerms.Bucket&gt; buckets = terms.getBuckets();</span><br><span class="line">    <span class="comment">// 定义一个品牌集合，搜集所有的品牌对象</span></span><br><span class="line">    List&lt;Brand&gt; brands = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">    <span class="comment">// 解析所有的id桶，查询品牌</span></span><br><span class="line">    buckets.forEach(bucket -&gt; &#123;</span><br><span class="line">        Brand brand = <span class="keyword">this</span>.brandClient.queryBrandById(bucket.getKeyAsNumber().longValue());</span><br><span class="line">        brands.add(brand);</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="keyword">return</span> brands;</span><br><span class="line">    <span class="comment">// 解析聚合结果集中的桶，把桶的集合转化成id的集合</span></span><br><span class="line">    <span class="comment">// List&lt;Long&gt; brandIds = terms.getBuckets().stream().map(bucket -&gt; bucket.getKeyAsNumber().longValue()).collect(Collectors.toList());</span></span><br><span class="line">    <span class="comment">// 根据ids查询品牌</span></span><br><span class="line">    <span class="comment">//return brandIds.stream().map(id -&gt; this.brandClient.queryBrandById(id)).collect(Collectors.toList());</span></span><br><span class="line">    <span class="comment">// return terms.getBuckets().stream().map(bucket -&gt; this.brandClient.queryBrandById(bucket.getKeyAsNumber().longValue())).collect(Collectors.toList());</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 解析分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> aggregation</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"><span class="keyword">private</span> List&lt;Map&lt;String,Object&gt;&gt; getCategoryAggResult(Aggregation aggregation) &#123;</span><br><span class="line">    <span class="comment">// 处理聚合结果集</span></span><br><span class="line">    LongTerms terms = (LongTerms)aggregation;</span><br><span class="line">    <span class="comment">// 获取所有的分类id桶</span></span><br><span class="line">    List&lt;LongTerms.Bucket&gt; buckets = terms.getBuckets();</span><br><span class="line">    <span class="comment">// 定义一个品牌集合，搜集所有的品牌对象</span></span><br><span class="line">    List&lt;Map&lt;String, Object&gt;&gt; categories = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">    List&lt;Long&gt; cids = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">    <span class="comment">// 解析所有的id桶，查询品牌</span></span><br><span class="line">    buckets.forEach(bucket -&gt; &#123;</span><br><span class="line">        cids.add(bucket.getKeyAsNumber().longValue());</span><br><span class="line">    &#125;);</span><br><span class="line">    List&lt;String&gt; names = <span class="keyword">this</span>.categoryClient.queryNamesByIds(cids);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; cids.size(); i++) &#123;</span><br><span class="line">        Map&lt;String, Object&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">        map.put(<span class="string">"id"</span>, cids.get(i));</span><br><span class="line">        map.put(<span class="string">"name"</span>, names.get(i));</span><br><span class="line">        categories.add(map);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> categories;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>测试：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532259453938.png" alt="1532259453938"></p>
+<h2 id="2-3-页面渲染数据"><a href="#2-3-页面渲染数据" class="headerlink" title="2.3.页面渲染数据"></a>2.3.页面渲染数据</h2><h3 id="2-3-1-过滤参数数据结构"><a href="#2-3-1-过滤参数数据结构" class="headerlink" title="2.3.1.过滤参数数据结构"></a>2.3.1.过滤参数数据结构</h3><p>来看下页面的展示效果：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526742664217.png" alt="1526742664217"></p>
+<p>虽然分类、品牌内容都不太一样，但是结构相似，都是key和value的结构。</p>
+<p>而且页面结构也极为类似：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526742817804.png" alt="1526742817804"></p>
+<p>所以，我们可以把所有的过滤条件放入一个<code>数组</code>中，然后在页面利用<code>v-for</code>遍历一次生成。</p>
+<p>其基本结构是这样的：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">    &#123;</span><br><span class="line">        k:<span class="string">"过滤字段名"</span>,</span><br><span class="line">        options:[&#123;<span class="comment">/*过滤字段值对象*/</span>&#125;,&#123;<span class="comment">/*过滤字段值对象*/</span>&#125;]</span><br><span class="line">    &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+<p>我们先在data中定义数组：filters，等待组装过滤参数：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">data: &#123;</span><br><span class="line">    ly,</span><br><span class="line">    search:&#123;</span><br><span class="line">        key: <span class="string">""</span>,</span><br><span class="line">        page: <span class="number">1</span></span><br><span class="line">    &#125;,</span><br><span class="line">    goodsList:[], <span class="comment">// 接收搜索得到的结果</span></span><br><span class="line">    total: <span class="number">0</span>, <span class="comment">// 总条数</span></span><br><span class="line">    totalPage: <span class="number">0</span>, <span class="comment">// 总页数</span></span><br><span class="line">    filters:[] <span class="comment">// 过滤参数集合</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+
+<p>然后在查询搜索结果的回调函数中，对过滤参数进行封装：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532261937404.png" alt="1532261937404"></p>
+<p>然后刷新页面，通过浏览器工具，查看封装的结果：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532260781128.png" alt="1532260781128"></p>
+<h3 id="2-3-2-页面渲染数据"><a href="#2-3-2-页面渲染数据" class="headerlink" title="2.3.2.页面渲染数据"></a>2.3.2.页面渲染数据</h3><p>首先看页面原来的代码：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526803362517.png" alt="1526803362517"></p>
+<p>我们注意到，虽然页面元素是一样的，但是品牌会比其它搜索条件多出一些样式，因为品牌是以图片展示。需要进行特殊处理。数据展示是一致的，我们采用v-for处理：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"type-wrap"</span> <span class="attr">v-for</span>=<span class="string">"(f,i) in filters"</span> <span class="attr">:key</span>=<span class="string">"i"</span> <span class="attr">v-if</span>=<span class="string">"f.k !== '品牌'"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"fl key"</span>&gt;</span>&#123;&#123;f.k&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"fl value"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"type-list"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">li</span> <span class="attr">v-for</span>=<span class="string">"(option, j) in f.options"</span> <span class="attr">:key</span>=<span class="string">"j"</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span>&gt;</span>&#123;&#123;option.name&#125;&#125;<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"fl ext"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"type-wrap logo"</span> <span class="attr">v-else</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"fl key brand"</span>&gt;</span>&#123;&#123;f.k&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"value logos"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"logo-list"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">li</span> <span class="attr">v-for</span>=<span class="string">"(option, j) in f.options"</span> <span class="attr">v-if</span>=<span class="string">"option.image"</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">img</span> <span class="attr">:src</span>=<span class="string">"option.image"</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">li</span> <span class="attr">style</span>=<span class="string">"text-align: center"</span> <span class="attr">v-else</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">style</span>=<span class="string">"line-height: 30px; font-size: 12px"</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>&#123;&#123;option.name&#125;&#125;<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"fl ext"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"javascript:void(0);"</span> <span class="attr">class</span>=<span class="string">"sui-btn"</span>&gt;</span>多选<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>结果：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532264524663.png" alt="1532264524663"></p>
+<h1 id="3-生成规格参数过滤"><a href="#3-生成规格参数过滤" class="headerlink" title="3.生成规格参数过滤"></a>3.生成规格参数过滤</h1><h2 id="3-1-谋而后动"><a href="#3-1-谋而后动" class="headerlink" title="3.1.谋而后动"></a>3.1.谋而后动</h2><p>有四个问题需要先思考清楚：</p>
+<ul>
+<li>什么时候显示规格参数过滤？ 分类只有一个</li>
+<li>如何知道哪些规格需要过滤？ </li>
+<li>要过滤的参数，其可选值是如何获取的？ </li>
+<li>规格过滤的可选值，其数据格式怎样的？</li>
+</ul>
+<blockquote>
+<p>什么情况下显示有关规格参数的过滤？</p>
+</blockquote>
+<p>如果用户尚未选择商品分类，或者聚合得到的分类数大于1，那么就没必要进行规格参数的聚合。因为不同分类的商品，其规格是不同的。</p>
+<p>因此，我们在后台<strong>需要对聚合得到的商品分类数量进行判断，如果等于1，我们才继续进行规格参数的聚合</strong>。</p>
+<blockquote>
+<p>如何知道哪些规格需要过滤？</p>
+</blockquote>
+<p>我们不能把数据库中的所有规格参数都拿来过滤。因为并不是所有的规格参数都可以用来过滤，参数的值是不确定的。</p>
+<p>值的庆幸的是，我们在设计规格参数时，已经标记了某些规格可搜索，某些不可搜索。</p>
+<p>因此，一旦商品分类确定，我们就可以根据商品分类查询到其对应的规格，从而知道哪些规格要进行搜索。</p>
+<blockquote>
+<p>要过滤的参数，其可选值是如何获取的？</p>
+</blockquote>
+<p>虽然数据库中有所有的规格参数，但是不能把一切数据都用来供用户选择。</p>
+<p>与商品分类和品牌一样，应该是从用户搜索得到的结果中聚合，得到与结果品牌的规格参数可选值。</p>
+<blockquote>
+<p>规格过滤的可选值，其数据格式怎样的？</p>
+</blockquote>
+<p>我们直接看页面效果：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526805322441.png" alt="1526805322441"></p>
+<p>我们之前存储时已经将数据分段，恰好符合这里的需求</p>
+<h2 id="3-2-实战"><a href="#3-2-实战" class="headerlink" title="3.2.实战"></a>3.2.实战</h2><p>接下来，我们就用代码实现刚才的思路。</p>
+<p>总结一下，应该是以下几步：</p>
+<ul>
+<li>1）用户搜索得到商品，并聚合出商品分类</li>
+<li>2）判断分类数量是否等于1，如果是则进行规格参数聚合</li>
+<li>3）先根据分类，查找可以用来搜索的规格</li>
+<li>4）对规格参数进行聚合</li>
+<li>5）将规格参数聚合结果整理后返回</li>
+</ul>
+<h3 id="3-2-1-扩展返回结果"><a href="#3-2-1-扩展返回结果" class="headerlink" title="3.2.1.扩展返回结果"></a>3.2.1.扩展返回结果</h3><p>返回结果中需要增加新数据，用来保存规格参数过滤条件。这里与前面的品牌和分类过滤的json结构类似：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="attr">"k"</span>:<span class="string">"规格参数名"</span>,</span><br><span class="line">        <span class="attr">"options"</span>:[<span class="string">"规格参数值"</span>,<span class="string">"规格参数值"</span>]</span><br><span class="line">    &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+<p>因此，在java中我们用List&lt;Map&lt;String, Object&gt;&gt;来表示。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SearchResult</span> <span class="keyword">extends</span> <span class="title">PageResult</span>&lt;<span class="title">Goods</span>&gt; </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Map&lt;String, Object&gt;&gt; categories;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Brand&gt; brands;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Map&lt;String, Object&gt;&gt; specs;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">SearchResult</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">SearchResult</span><span class="params">(List&lt;Map&lt;String, Object&gt;&gt; categories, List&lt;Brand&gt; brands, List&lt;Map&lt;String, Object&gt;&gt; specs)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">        <span class="keyword">this</span>.brands = brands;</span><br><span class="line">        <span class="keyword">this</span>.specs = specs;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">SearchResult</span><span class="params">(List&lt;Goods&gt; items, Long total, List&lt;Map&lt;String, Object&gt;&gt; categories, List&lt;Brand&gt; brands, List&lt;Map&lt;String, Object&gt;&gt; specs)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(items, total);</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">        <span class="keyword">this</span>.brands = brands;</span><br><span class="line">        <span class="keyword">this</span>.specs = specs;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">SearchResult</span><span class="params">(List&lt;Goods&gt; items, Long total, Integer totalPage, List&lt;Map&lt;String, Object&gt;&gt; categories, List&lt;Brand&gt; brands, List&lt;Map&lt;String, Object&gt;&gt; specs)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(items, total, totalPage);</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">        <span class="keyword">this</span>.brands = brands;</span><br><span class="line">        <span class="keyword">this</span>.specs = specs;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> List&lt;Map&lt;String, Object&gt;&gt; getCategories() &#123;</span><br><span class="line">        <span class="keyword">return</span> categories;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setCategories</span><span class="params">(List&lt;Map&lt;String, Object&gt;&gt; categories)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Brand&gt; <span class="title">getBrands</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> brands;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setBrands</span><span class="params">(List&lt;Brand&gt; brands)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.brands = brands;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> List&lt;Map&lt;String, Object&gt;&gt; getSpecs() &#123;</span><br><span class="line">        <span class="keyword">return</span> specs;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setSpecs</span><span class="params">(List&lt;Map&lt;String, Object&gt;&gt; specs)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.specs = specs;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-2-2-判断是否需要聚合"><a href="#3-2-2-判断是否需要聚合" class="headerlink" title="3.2.2.判断是否需要聚合"></a>3.2.2.判断是否需要聚合</h3><p>首先，在聚合得到商品分类后，判断分类的个数，如果是1个则进行规格聚合：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1543673893654.png" alt="1543673893654"></p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1543673960091.png" alt="1543673960091"></p>
+<p>我们将聚合的代码抽取到了一个<code>getParamAggResult</code>方法中。</p>
+<h3 id="3-2-3-获取需要聚合的规格参数"><a href="#3-2-3-获取需要聚合的规格参数" class="headerlink" title="3.2.3.获取需要聚合的规格参数"></a>3.2.3.获取需要聚合的规格参数</h3><p>然后，我们需要根据商品分类，查询所有可用于搜索的规格参数：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1543674113503.png" alt="1543674113503"></p>
+<p>要注意的是，这里我们需要根据分类id查询规格，而规格参数接口需要从商品微服务提供</p>
+<h3 id="3-2-4-聚合规格参数"><a href="#3-2-4-聚合规格参数" class="headerlink" title="3.2.4.聚合规格参数"></a>3.2.4.聚合规格参数</h3><p>因为规格参数保存时不做分词，因此其名称会自动带上一个.keyword后缀：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1543674179820.png" alt="1543674179820"></p>
+<h3 id="3-2-5-解析聚合结果"><a href="#3-2-5-解析聚合结果" class="headerlink" title="3.2.5.解析聚合结果"></a>3.2.5.解析聚合结果</h3><p><img src="/2019/09/20/乐优商城day12-搜索过滤/1543674250920.png" alt="1543674250920"></p>
+<h3 id="3-2-6-最终的完整代码"><a href="#3-2-6-最终的完整代码" class="headerlink" title="3.2.6.最终的完整代码"></a>3.2.6.最终的完整代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> SearchResult <span class="title">search</span><span class="params">(SearchRequest request)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 判断查询条件</span></span><br><span class="line">    <span class="keyword">if</span> (StringUtils.isBlank(request.getKey())) &#123;</span><br><span class="line">        <span class="comment">// 返回默认结果集</span></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 初始化自定义查询构建器</span></span><br><span class="line">    NativeSearchQueryBuilder queryBuilder = <span class="keyword">new</span> NativeSearchQueryBuilder();</span><br><span class="line">    <span class="comment">// 添加查询条件</span></span><br><span class="line">    MatchQueryBuilder basicQuery = QueryBuilders.matchQuery(<span class="string">"all"</span>, request.getKey()).operator(Operator.AND);</span><br><span class="line">    queryBuilder.withQuery(basicQuery);</span><br><span class="line">    <span class="comment">// 添加结果集过滤，只需要：id,subTitle, skus</span></span><br><span class="line">    queryBuilder.withSourceFilter(<span class="keyword">new</span> FetchSourceFilter(<span class="keyword">new</span> String[]&#123;<span class="string">"id"</span>, <span class="string">"subTitle"</span>, <span class="string">"skus"</span>&#125;, <span class="keyword">null</span>));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 获取分页参数</span></span><br><span class="line">    Integer page = request.getPage();</span><br><span class="line">    Integer size = request.getSize();</span><br><span class="line">    <span class="comment">// 添加分页</span></span><br><span class="line">    queryBuilder.withPageable(PageRequest.of(page - <span class="number">1</span>, size));</span><br><span class="line"></span><br><span class="line">    String categoryAggName = <span class="string">"categories"</span>;</span><br><span class="line">    String brandAggName = <span class="string">"brands"</span>;</span><br><span class="line">    queryBuilder.addAggregation(AggregationBuilders.terms(categoryAggName).field(<span class="string">"cid3"</span>));</span><br><span class="line">    queryBuilder.addAggregation(AggregationBuilders.terms(brandAggName).field(<span class="string">"brandId"</span>));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 执行搜索，获取搜索的结果集</span></span><br><span class="line">    AggregatedPage&lt;Goods&gt; goodsPage = (AggregatedPage&lt;Goods&gt;)<span class="keyword">this</span>.goodsReponsitory.search(queryBuilder.build());</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 解析聚合结果集</span></span><br><span class="line">    List&lt;Map&lt;String, Object&gt;&gt; categories = getCategoryAggResult(goodsPage.getAggregation(categoryAggName));</span><br><span class="line">    List&lt;Brand&gt; brands = getBrandAggResult(goodsPage.getAggregation(brandAggName));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 判断分类聚合的结果集大小，等于1则聚合</span></span><br><span class="line">    List&lt;Map&lt;String, Object&gt;&gt; specs = <span class="keyword">null</span>;</span><br><span class="line">    <span class="keyword">if</span> (categories.size() == <span class="number">1</span>) &#123;</span><br><span class="line">        specs = getParamAggResult((Long)categories.get(<span class="number">0</span>).get(<span class="string">"id"</span>), basicQuery);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 封装成需要的返回结果集</span></span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> SearchResult(goodsPage.getContent(), goodsPage.getTotalElements(), goodsPage.getTotalPages(), categories, brands, specs);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 聚合出规格参数过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> basicQuery</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"><span class="keyword">private</span> List&lt;Map&lt;String,Object&gt;&gt; getParamAggResult(Long id, QueryBuilder basicQuery) &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 创建自定义查询构建器</span></span><br><span class="line">    NativeSearchQueryBuilder queryBuilder = <span class="keyword">new</span> NativeSearchQueryBuilder();</span><br><span class="line">    <span class="comment">// 基于基本的查询条件，聚合规格参数</span></span><br><span class="line">    queryBuilder.withQuery(basicQuery);</span><br><span class="line">    <span class="comment">// 查询要聚合的规格参数</span></span><br><span class="line">    List&lt;SpecParam&gt; params = <span class="keyword">this</span>.specificationClient.queryParams(<span class="keyword">null</span>, id, <span class="keyword">null</span>, <span class="keyword">true</span>);</span><br><span class="line">    <span class="comment">// 添加聚合</span></span><br><span class="line">    params.forEach(param -&gt; &#123;</span><br><span class="line">        queryBuilder.addAggregation(AggregationBuilders.terms(param.getName()).field(<span class="string">"specs."</span> + param.getName() + <span class="string">".keyword"</span>));</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="comment">// 只需要聚合结果集，不需要查询结果集</span></span><br><span class="line">    queryBuilder.withSourceFilter(<span class="keyword">new</span> FetchSourceFilter(<span class="keyword">new</span> String[]&#123;&#125;, <span class="keyword">null</span>));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 执行聚合查询</span></span><br><span class="line">    AggregatedPage&lt;Goods&gt; goodsPage = (AggregatedPage&lt;Goods&gt;)<span class="keyword">this</span>.goodsReponsitory.search(queryBuilder.build());</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 定义一个集合，收集聚合结果集</span></span><br><span class="line">    List&lt;Map&lt;String, Object&gt;&gt; paramMapList = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">    <span class="comment">// 解析聚合查询的结果集</span></span><br><span class="line">    Map&lt;String, Aggregation&gt; aggregationMap = goodsPage.getAggregations().asMap();</span><br><span class="line">    <span class="keyword">for</span> (Map.Entry&lt;String, Aggregation&gt; entry : aggregationMap.entrySet()) &#123;</span><br><span class="line">        Map&lt;String, Object&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">        <span class="comment">// 放入规格参数名</span></span><br><span class="line">        map.put(<span class="string">"k"</span>, entry.getKey());</span><br><span class="line">        <span class="comment">// 收集规格参数值</span></span><br><span class="line">        List&lt;Object&gt; options = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="comment">// 解析每个聚合</span></span><br><span class="line">        StringTerms terms = (StringTerms)entry.getValue();</span><br><span class="line">        <span class="comment">// 遍历每个聚合中桶，把桶中key放入收集规格参数的集合中</span></span><br><span class="line">        terms.getBuckets().forEach(bucket -&gt; options.add(bucket.getKeyAsString()));</span><br><span class="line">        map.put(<span class="string">"options"</span>, options);</span><br><span class="line">        paramMapList.add(map);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> paramMapList;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-2-7-测试结果"><a href="#3-2-7-测试结果" class="headerlink" title="3.2.7.测试结果"></a>3.2.7.测试结果</h3><p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532270167684.png" alt="1532270167684"></p>
+<h2 id="3-3-页面渲染"><a href="#3-3-页面渲染" class="headerlink" title="3.3.页面渲染"></a>3.3.页面渲染</h2><h3 id="3-3-1-渲染规格过滤条件"><a href="#3-3-1-渲染规格过滤条件" class="headerlink" title="3.3.1.渲染规格过滤条件"></a>3.3.1.渲染规格过滤条件</h3><p>首先把后台传递过来的specs添加到filters数组：</p>
+<p>要注意：分类、品牌的option选项是对象，里面有name属性，而specs中的option是简单的字符串，所以需要进行封装，变为相同的结构：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532271319440.png" alt="1532271319440"></p>
+<p>最后的结果：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526836508277.png" alt="1526836508277"></p>
+<h3 id="3-3-2-展示或收起过滤条件"><a href="#3-3-2-展示或收起过滤条件" class="headerlink" title="3.3.2.展示或收起过滤条件"></a>3.3.2.展示或收起过滤条件</h3><p>是不是感觉显示的太多了，我们可以通过按钮点击来展开和隐藏部分内容：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532271362148.png" alt="1532271362148"></p>
+<p>我们在data中定义变量，记录展开或隐藏的状态：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532271577293.png" alt="1532271577293"></p>
+<p>然后在按钮绑定点击事件，以改变show的取值：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532272309322.png" alt="1532272309322"></p>
+<p>在展示规格时，对show进行判断：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532272262743.png" alt="1532272262743"></p>
+<p>OK！</p>
+<h1 id="4-过滤条件的筛选"><a href="#4-过滤条件的筛选" class="headerlink" title="4.过滤条件的筛选"></a>4.过滤条件的筛选</h1><p>当我们点击页面的过滤项，要做哪些事情？</p>
+<ul>
+<li>把过滤条件保存在search对象中（watch监控到search变化后就会发送到后台）</li>
+<li>在页面顶部展示已选择的过滤项</li>
+<li>把商品分类展示到顶部面包屑</li>
+</ul>
+<h2 id="4-1-保存过滤项"><a href="#4-1-保存过滤项" class="headerlink" title="4.1.保存过滤项"></a>4.1.保存过滤项</h2><h3 id="4-1-1-定义属性"><a href="#4-1-1-定义属性" class="headerlink" title="4.1.1.定义属性"></a>4.1.1.定义属性</h3><p>我们把已选择的过滤项保存在search中：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532273487583.png" alt="1532273487583"></p>
+<p>要注意，在created构造函数中会对search进行初始化，所以要在构造函数中对filter进行初始化：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1533566768364.png" alt="1533566768364"></p>
+<p>search.filter是一个对象，结构：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"过滤项名"</span>:<span class="string">"过滤项值"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-1-2-绑定点击事件"><a href="#4-1-2-绑定点击事件" class="headerlink" title="4.1.2.绑定点击事件"></a>4.1.2.绑定点击事件</h3><p>给所有的过滤项绑定点击事件：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532272879418.png" alt="1532272879418"></p>
+<p>要注意，点击事件传2个参数：</p>
+<ul>
+<li>k：过滤项的key</li>
+<li>option：当前过滤项对象</li>
+</ul>
+<p>在点击事件中，保存过滤项到<code>selectedFilter</code>：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">selectFilter(k, o)&#123;</span><br><span class="line">    <span class="keyword">const</span> obj = &#123;&#125;;</span><br><span class="line">    <span class="built_in">Object</span>.assign(obj, <span class="keyword">this</span>.search);</span><br><span class="line">    <span class="keyword">if</span>(k === <span class="string">'分类'</span> || k === <span class="string">'品牌'</span>)&#123;</span><br><span class="line">        o = o.id;</span><br><span class="line">    &#125;</span><br><span class="line">    obj.filter[k] = o.name || o;</span><br><span class="line">    <span class="keyword">this</span>.search = obj;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>另外，这里search对象中嵌套了filter对象，请求参数格式化时需要进行特殊处理，修改common.js中的一段代码：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532273144046.png" alt="1532273144046"></p>
+<p>我们刷新页面，点击后通过浏览器功能查看<code>search.filter</code>的属性变化：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532274670784.png" alt="1532274670784"></p>
+<p>并且，此时浏览器地址也发生了变化：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://www.leyou.com/search.html?key=%E6%89%8B%E6%9C%BA&amp;page=1&amp;filter.%E5%93%81%E7%89%8C=2032&amp;filter.CPU%E5%93%81%E7%89%8C=%E6%B5%B7%E6%80%9D%EF%BC%88Hisilicon%EF%BC%89&amp;filter.CPU%E6%A0%B8%E6%95%B0=%E5%8D%81%E6%A0%B8</span><br></pre></td></tr></table></figure>
+
+<p>网络请求也正常发出：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1532274821104.png" alt="1532274821104"></p>
+<h2 id="4-2-后台添加过滤条件"><a href="#4-2-后台添加过滤条件" class="headerlink" title="4.2.后台添加过滤条件"></a>4.2.后台添加过滤条件</h2><p>既然请求已经发送到了后台，那接下来我们就在后台去添加这些条件：</p>
+<h3 id="4-2-1-拓展请求对象"><a href="#4-2-1-拓展请求对象" class="headerlink" title="4.2.1.拓展请求对象"></a>4.2.1.拓展请求对象</h3><p>我们需要在请求类：<code>SearchRequest</code>中添加属性，接收过滤属性。过滤属性都是键值对格式，但是key不确定，所以用一个map来接收即可。</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526910290497.png" alt="1526910290497"></p>
+<h3 id="4-2-2-添加过滤条件"><a href="#4-2-2-添加过滤条件" class="headerlink" title="4.2.2.添加过滤条件"></a>4.2.2.添加过滤条件</h3><p>目前，我们的基本查询是这样的：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1533567897849.png" alt="1533567897849"></p>
+<p>现在，我们要把页面传递的过滤条件也加入进去。</p>
+<p>因此不能在使用普通的查询，而是要用到BooleanQuery，基本结构是这样的：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">GET /heima/_search</span><br><span class="line">&#123;</span><br><span class="line">    <span class="attr">"query"</span>:&#123;</span><br><span class="line">        <span class="attr">"bool"</span>:&#123;</span><br><span class="line">        	"must":&#123; "match": &#123; "title": "小米手机",operator:"and"&#125;&#125;,</span><br><span class="line">        	"filter":&#123;</span><br><span class="line">                "range":&#123;"price":&#123;"gt":2000.00,"lt":3800.00&#125;&#125;</span><br><span class="line">        	&#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>所以，我们对原来的基本查询进行改造：（SearchService中的search方法）</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1543674461682.png" alt="1543674461682"></p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1543674644998.png" alt="1543674644998"></p>
+<p>因为比较复杂，我们将其封装到一个方法中：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 构建bool查询构建器</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> request</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"><span class="function"><span class="keyword">private</span> BoolQueryBuilder <span class="title">buildBooleanQueryBuilder</span><span class="params">(SearchRequest request)</span> </span>&#123;</span><br><span class="line">    BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 添加基本查询条件</span></span><br><span class="line">    boolQueryBuilder.must(QueryBuilders.matchQuery(<span class="string">"all"</span>, request.getKey()).operator(Operator.AND));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 添加过滤条件</span></span><br><span class="line">    <span class="keyword">if</span> (CollectionUtils.isEmpty(request.getFilter()))&#123;</span><br><span class="line">        <span class="keyword">return</span> boolQueryBuilder;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (Map.Entry&lt;String, Object&gt; entry : request.getFilter().entrySet()) &#123;</span><br><span class="line"></span><br><span class="line">        String key = entry.getKey();</span><br><span class="line">        <span class="comment">// 如果过滤条件是“品牌”, 过滤的字段名：brandId</span></span><br><span class="line">        <span class="keyword">if</span> (StringUtils.equals(<span class="string">"品牌"</span>, key)) &#123;</span><br><span class="line">            key = <span class="string">"brandId"</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (StringUtils.equals(<span class="string">"分类"</span>, key)) &#123;</span><br><span class="line">            <span class="comment">// 如果是“分类”，过滤字段名：cid3</span></span><br><span class="line">            key = <span class="string">"cid3"</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="comment">// 如果是规格参数名，过滤字段名：specs.key.keyword</span></span><br><span class="line">            key = <span class="string">"specs."</span> + key + <span class="string">".keyword"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        boolQueryBuilder.filter(QueryBuilders.termQuery(key, entry.getValue()));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> boolQueryBuilder;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>其它不变。</p>
+<h2 id="4-3-页面测试"><a href="#4-3-页面测试" class="headerlink" title="4.3.页面测试"></a>4.3.页面测试</h2><p>我们先不点击过滤条件，直接搜索手机：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526910966728.png" alt="1526910966728"></p>
+<p>总共184条</p>
+<p>接下来，我们点击一个过滤条件：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526911057839.png" alt="1526911057839"></p>
+<p>得到的结果：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526911090064.png" alt="1526911090064"></p>
+<h1 id="5-页面展示选择的过滤项-作业"><a href="#5-页面展示选择的过滤项-作业" class="headerlink" title="5.页面展示选择的过滤项(作业)"></a>5.页面展示选择的过滤项(作业)</h1><h2 id="5-1-商品分类面包屑"><a href="#5-1-商品分类面包屑" class="headerlink" title="5.1.商品分类面包屑"></a>5.1.商品分类面包屑</h2><p>当用户选择一个商品分类以后，我们应该在过滤模块的上方展示一个面包屑，把三级商品分类都显示出来。</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526912181355.png" alt="1526912181355"></p>
+<p>用户选择的商品分类就存放在<code>search.filter</code>中，但是里面只有第三级分类的id：cid3</p>
+<p>我们需要根据它查询出所有三级分类的id及名称</p>
+<h3 id="5-1-1-提供查询分类接口"><a href="#5-1-1-提供查询分类接口" class="headerlink" title="5.1.1.提供查询分类接口"></a>5.1.1.提供查询分类接口</h3><p>我们在商品微服务中提供一个根据三级分类id查询1~3级分类集合的方法：</p>
+<blockquote>
+<p>Controller</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据3级分类id，查询1~3级的分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"><span class="meta">@GetMapping</span>(<span class="string">"all/level"</span>)</span><br><span class="line"><span class="keyword">public</span> ResponseEntity&lt;List&lt;Category&gt;&gt; queryAllByCid3(<span class="meta">@RequestParam</span>(<span class="string">"id"</span>) Long id)&#123;</span><br><span class="line">    List&lt;Category&gt; list = <span class="keyword">this</span>.categoryService.queryAllByCid3(id);</span><br><span class="line">    <span class="keyword">if</span> (list == <span class="keyword">null</span> || list.size() &lt; <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ResponseEntity.ok(list);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Service</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> List&lt;Category&gt; <span class="title">queryAllByCid3</span><span class="params">(Long id)</span> </span>&#123;</span><br><span class="line">    Category c3 = <span class="keyword">this</span>.categoryMapper.selectByPrimaryKey(id);</span><br><span class="line">    Category c2 = <span class="keyword">this</span>.categoryMapper.selectByPrimaryKey(c3.getParentId());</span><br><span class="line">    Category c1 = <span class="keyword">this</span>.categoryMapper.selectByPrimaryKey(c2.getParentId());</span><br><span class="line">    <span class="keyword">return</span> Arrays.asList(c1,c2,c3);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>测试：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526912781014.png" alt="1526912781014"></p>
+<h3 id="5-1-2-页面展示面包屑"><a href="#5-1-2-页面展示面包屑" class="headerlink" title="5.1.2.页面展示面包屑"></a>5.1.2.页面展示面包屑</h3><p>后台提供了接口，下面的问题是，我们在哪里去查询接口？</p>
+<p>大家首先想到的肯定是当用户点击以后。</p>
+<p>但是我们思考一下：用户点击以后，就会重新发起请求，页面刷新，那么你渲染的结果就没了。</p>
+<p>因此，应该是在页面重新加载完毕后，此时因为过滤条件中加入了商品分类的条件，所以查询的结果中只有1个分类。</p>
+<p>我们判断商品分类是否只有1个，如果是，则查询三级商品分类，添加到面包屑即可。</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526914910479.png" alt="1526914910479"></p>
+<p>渲染：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1528416823546.png" alt="1528416823546"></p>
+<p>刷新页面：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526914954839.png" alt="1526914954839"></p>
+<h2 id="5-2-其它过滤项"><a href="#5-2-其它过滤项" class="headerlink" title="5.2.其它过滤项"></a>5.2.其它过滤项</h2><p>接下来，我们需要在页面展示用户已选择的过滤项，如图：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526911364625.png" alt="1526911364625"></p>
+<p>我们知道，所有已选择过滤项都保存在<code>search.filter</code>中，因此在页面遍历并展示即可。</p>
+<p>但这里有个问题，filter中数据的格式：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526911311273.png" alt="1526911311273"></p>
+<p>基本有四类数据：</p>
+<ul>
+<li>商品分类：这个不需要展示，分类展示在面包屑位置</li>
+<li>品牌：这个要展示，但是其key和值不合适，我们不能显示一个id在页面。需要找到其name值</li>
+<li>数值类型规格：这个展示的时候，需要把单位查询出来</li>
+<li>非数值类型规格：这个直接展示其值即可</li>
+</ul>
+<p>因此，我们在页面上这样处理：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--已选择过滤项--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"tags-choose"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"tag"</span> <span class="attr">v-for</span>=<span class="string">"(v,k) in search.filter"</span> <span class="attr">v-if</span>=<span class="string">"k !== 'cid3'"</span> <span class="attr">:key</span>=<span class="string">"k"</span>&gt;</span></span><br><span class="line">        &#123;&#123;k === 'brandId' ? '品牌' : k&#125;&#125;:<span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">"color: red"</span>&gt;</span>&#123;&#123;getFilterValue(k,v)&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"sui-icon icon-tb-close"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>判断如果 <code>k === &#39;cid3&#39;</code>说明是商品分类，直接忽略</li>
+<li>判断<code>k === &#39;brandId&#39;</code>说明是品牌，页面显示品牌，其它规格则直接显示<code>k</code>的值</li>
+<li>值的处理比较复杂，我们用一个方法<code>getFilterValue(k,v)</code>来处理，调用时把<code>k</code>和<code>v</code>都传递</li>
+</ul>
+<p>方法内部：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">getFilterValue(k,v)&#123;</span><br><span class="line">    <span class="comment">// 如果没有过滤参数，我们跳过展示</span></span><br><span class="line">    <span class="keyword">if</span>(!<span class="keyword">this</span>.filters || <span class="keyword">this</span>.filters.length === <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> filter = <span class="literal">null</span>;</span><br><span class="line">    <span class="comment">// 判断是否是品牌</span></span><br><span class="line">    <span class="keyword">if</span>(k === <span class="string">'brandId'</span>)&#123;</span><br><span class="line">        <span class="comment">// 返回品牌名称</span></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.filters.find(<span class="function"><span class="params">f</span> =&gt;</span> f.k === <span class="string">'brandId'</span>).options[<span class="number">0</span>].name;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> v;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后刷新页面，即可看到效果：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526911811998.png" alt="1526911811998"></p>
+<h2 id="5-3-隐藏已经选择的过滤项"><a href="#5-3-隐藏已经选择的过滤项" class="headerlink" title="5.3.隐藏已经选择的过滤项"></a>5.3.隐藏已经选择的过滤项</h2><p>现在，我们已经实现了已选择过滤项的展示，但是你会发现一个问题：</p>
+<p>已经选择的过滤项，在过滤列表中依然存在：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526915075037.png" alt="1526915075037"></p>
+<p>这些已经选择的过滤项，应该从列表中移除。</p>
+<p>怎么做呢？</p>
+<p>你必须先知道用户选择了什么。用户选择的项保存在<code>search.filter</code>中：</p>
+<p> <img src="/2019/09/20/乐优商城day12-搜索过滤/1526915191753.png" alt="1526915191753"></p>
+<p>我们可以编写一个计算属性，把filters中的 已经被选择的key过滤掉：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">computed:&#123;</span><br><span class="line">    remainFilters()&#123;</span><br><span class="line">        <span class="keyword">const</span> keys = <span class="built_in">Object</span>.keys(<span class="keyword">this</span>.search.filter);</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">this</span>.search.filter.cid3)&#123;</span><br><span class="line">            keys.push(<span class="string">"cid3"</span>)</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">this</span>.search.filter.brandId)&#123;</span><br><span class="line">            keys.push(<span class="string">"brandId"</span>)</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.filters.filter(<span class="function"><span class="params">f</span> =&gt;</span> !keys.includes(f.k));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后页面不再直接遍历<code>filters</code>，而是遍历<code>remainFilters</code></p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526916315470.png" alt="1526916315470"></p>
+<p>刷新页面：</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526916538925.png" alt="1526916538925"></p>
+<p>最后发现，还剩下一堆没选过的。但是都只有一个可选项，此时再过滤没有任何意义，应该隐藏，所以，在刚才的过滤条件中，还应该添加一条：如果只剩下一个可选项，不显示</p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526916815264.png" alt="1526916815264"></p>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526916838222.png" alt="1526916838222"></p>
+<h1 id="6-取消过滤项（作业）"><a href="#6-取消过滤项（作业）" class="headerlink" title="6.取消过滤项（作业）"></a>6.取消过滤项（作业）</h1><p>我们能够看到，每个过滤项后面都有一个小叉，当点击后，应该取消对应条件的过滤。</p>
+<p>思路非常简单：</p>
+<ul>
+<li>给小叉绑定点击事件</li>
+<li>点击后把过滤项从<code>search.filter</code>中移除，页面会自动刷新，OK</li>
+</ul>
+<blockquote>
+<p>绑定点击事件：</p>
+</blockquote>
+<p><img src="/2019/09/20/乐优商城day12-搜索过滤/1526955150293.png" alt="1526955150293"></p>
+<p>绑定点击事件时，把k传递过去，方便删除</p>
+<blockquote>
+<p>删除过滤项</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">removeFilter(k)&#123;</span><br><span class="line">    <span class="keyword">this</span>.search.filter[k] = <span class="literal">null</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="7-优化"><a href="#7-优化" class="headerlink" title="7.优化"></a>7.优化</h1><p>搜索系统需要优化的点：</p>
+<ul>
+<li>查询规格参数部分可以添加缓存 </li>
+<li>聚合计算interval变化频率极低，所以可以设计为定时任务计算（周期为天），然后缓存起来。</li>
+<li>elasticsearch本身有查询缓存，可以不进行优化</li>
+<li>商品图片应该采用缩略图，减少流量，提高页面加载速度</li>
+<li>图片采用延迟加载</li>
+<li>图片还可以采用CDN服务器</li>
+<li>sku信息应该在页面异步加载，而不是放到索引库</li>
+</ul>
 
       
 
@@ -259,7 +614,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/08/我的第一篇博客文章/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -273,18 +628,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/09/08/乐优商城day01-SpringBoot/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          乐优商城day01-SpringBoot
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/09/08/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2019/09/18/乐优商城day11-基本搜索/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">乐优商城day11-基本搜索</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -311,7 +657,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#第一章"><span class="toc-number">1.</span> <span class="toc-text">第一章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二章"><span class="toc-number">2.</span> <span class="toc-text">第二章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结语"><span class="toc-number">3.</span> <span class="toc-text">结语</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#0-学习目标"><span class="toc-number">1.</span> <span class="toc-text">0.学习目标</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-过滤功能分析"><span class="toc-number">2.</span> <span class="toc-text">1.过滤功能分析</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-生成分类和品牌过滤"><span class="toc-number">3.</span> <span class="toc-text">2.生成分类和品牌过滤</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-扩展返回的结果"><span class="toc-number">3.1.</span> <span class="toc-text">2.1.扩展返回的结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-聚合商品分类和品牌"><span class="toc-number">3.2.</span> <span class="toc-text">2.2.聚合商品分类和品牌</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-页面渲染数据"><span class="toc-number">3.3.</span> <span class="toc-text">2.3.页面渲染数据</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-1-过滤参数数据结构"><span class="toc-number">3.3.1.</span> <span class="toc-text">2.3.1.过滤参数数据结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-2-页面渲染数据"><span class="toc-number">3.3.2.</span> <span class="toc-text">2.3.2.页面渲染数据</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-生成规格参数过滤"><span class="toc-number">4.</span> <span class="toc-text">3.生成规格参数过滤</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-谋而后动"><span class="toc-number">4.1.</span> <span class="toc-text">3.1.谋而后动</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-实战"><span class="toc-number">4.2.</span> <span class="toc-text">3.2.实战</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-1-扩展返回结果"><span class="toc-number">4.2.1.</span> <span class="toc-text">3.2.1.扩展返回结果</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-2-判断是否需要聚合"><span class="toc-number">4.2.2.</span> <span class="toc-text">3.2.2.判断是否需要聚合</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-3-获取需要聚合的规格参数"><span class="toc-number">4.2.3.</span> <span class="toc-text">3.2.3.获取需要聚合的规格参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-4-聚合规格参数"><span class="toc-number">4.2.4.</span> <span class="toc-text">3.2.4.聚合规格参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-5-解析聚合结果"><span class="toc-number">4.2.5.</span> <span class="toc-text">3.2.5.解析聚合结果</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-6-最终的完整代码"><span class="toc-number">4.2.6.</span> <span class="toc-text">3.2.6.最终的完整代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-7-测试结果"><span class="toc-number">4.2.7.</span> <span class="toc-text">3.2.7.测试结果</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-页面渲染"><span class="toc-number">4.3.</span> <span class="toc-text">3.3.页面渲染</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-1-渲染规格过滤条件"><span class="toc-number">4.3.1.</span> <span class="toc-text">3.3.1.渲染规格过滤条件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-2-展示或收起过滤条件"><span class="toc-number">4.3.2.</span> <span class="toc-text">3.3.2.展示或收起过滤条件</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-过滤条件的筛选"><span class="toc-number">5.</span> <span class="toc-text">4.过滤条件的筛选</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-保存过滤项"><span class="toc-number">5.1.</span> <span class="toc-text">4.1.保存过滤项</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-1-定义属性"><span class="toc-number">5.1.1.</span> <span class="toc-text">4.1.1.定义属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-2-绑定点击事件"><span class="toc-number">5.1.2.</span> <span class="toc-text">4.1.2.绑定点击事件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-2-后台添加过滤条件"><span class="toc-number">5.2.</span> <span class="toc-text">4.2.后台添加过滤条件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-1-拓展请求对象"><span class="toc-number">5.2.1.</span> <span class="toc-text">4.2.1.拓展请求对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-2-添加过滤条件"><span class="toc-number">5.2.2.</span> <span class="toc-text">4.2.2.添加过滤条件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-3-页面测试"><span class="toc-number">5.3.</span> <span class="toc-text">4.3.页面测试</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-页面展示选择的过滤项-作业"><span class="toc-number">6.</span> <span class="toc-text">5.页面展示选择的过滤项(作业)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-商品分类面包屑"><span class="toc-number">6.1.</span> <span class="toc-text">5.1.商品分类面包屑</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#5-1-1-提供查询分类接口"><span class="toc-number">6.1.1.</span> <span class="toc-text">5.1.1.提供查询分类接口</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-1-2-页面展示面包屑"><span class="toc-number">6.1.2.</span> <span class="toc-text">5.1.2.页面展示面包屑</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-2-其它过滤项"><span class="toc-number">6.2.</span> <span class="toc-text">5.2.其它过滤项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-3-隐藏已经选择的过滤项"><span class="toc-number">6.3.</span> <span class="toc-text">5.3.隐藏已经选择的过滤项</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-取消过滤项（作业）"><span class="toc-number">7.</span> <span class="toc-text">6.取消过滤项（作业）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-优化"><span class="toc-number">8.</span> <span class="toc-text">7.优化</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -328,8 +674,8 @@
   <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
 <script>
   var cloudTieConfig = {
-    url: "http://yoursite.com/2019/09/08/我的第一篇博客文章/", 
-    sourceId: "我的第一篇博客文章",
+    url: "http://yoursite.com/2019/09/20/乐优商城day12-搜索过滤/", 
+    sourceId: "乐优商城day12-搜索过滤",
     productKey: "true",
     target: "cloud-tie-wrapper"
   };
